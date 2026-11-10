@@ -1,0 +1,17 @@
+# Affinités Photos
+
+> Studio photo et photographe à Amiens, 5 rue de la Hotoie, 80000 Amiens, France. Téléphone : 03 22 91 60 34. Note Google : 4,7/5 (180 avis, relevé du 10 novembre 2026).
+
+Prestations : photos d'identité aux normes françaises (carte d'identité, passeport, permis de conduire, titre de séjour, visas), séances photo bébé, naissance, grossesse, famille et portrait au studio, tirages photo et agrandissements.
+
+Horaires : du mardi au vendredi 9 h 30 – 19 h, le samedi 9 h 30 – 18 h ; fermé le dimanche et le lundi.
+
+Photos d'identité : sans rendez-vous, aux heures d'ouverture. Séances : sur réservation, par téléphone ou par le formulaire en ligne ; le studio rappelle pour confirmer.
+
+## Pages
+
+- [Accueil](https://affinites-photos.vercel.app/fr): prestations, tarifs, séances, galerie, avis, infos pratiques, FAQ
+- [Réserver une séance](https://affinites-photos.vercel.app/fr/reserver)
+- [Photo d'identité à Amiens](https://affinites-photos.vercel.app/fr/photo-identite-amiens)
+- [Photographe bébé et naissance à Amiens](https://affinites-photos.vercel.app/fr/photographe-bebe-amiens)
+- [English version](https://affinites-photos.vercel.app/en)

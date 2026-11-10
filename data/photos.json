@@ -1,0 +1,29 @@
+{
+  "_note": "Emplacements photo du site. Tant que la valeur est null, le site affiche un cadre « viseur » élégant. Pour remplir un emplacement : déposer la photo dans assets/<dossier>/, lancer `npm run media`, puis indiquer ici son chemin, ex. \"/media/facade/vitrine.jpg\". Le texte alternatif de chaque emplacement est dans locales/*.json → slots. Ne pas mettre en avant les visages des clients ; photos de séances uniquement avec l'accord écrit des familles.",
+  "slots": {
+    "hero": null,
+    "tile-identite": null,
+    "tile-bebe": null,
+    "tile-famille": null,
+    "tile-portrait": null,
+    "tile-tirages": null,
+    "tile-services": null,
+    "block-identite": null,
+    "block-seances": null,
+    "block-tirages": null,
+    "bebe-1": null,
+    "bebe-2": null,
+    "bebe-3": null,
+    "famille-1": null,
+    "famille-2": null,
+    "famille-3": null,
+    "portrait-1": null,
+    "portrait-2": null,
+    "portrait-3": null,
+    "studio-1": null,
+    "studio-2": null,
+    "studio-3": null,
+    "page-identite": null,
+    "page-bebe": null
+  }
+}

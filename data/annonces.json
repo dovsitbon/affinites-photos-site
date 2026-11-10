@@ -1,0 +1,28 @@
+{
+  "_note": "Bandeau du haut de page. Une annonce s'affiche entre from et to (inclus) ; la plus récente l'emporte. page : home, rdv, identite, bebe ; hash facultatif (ancre, ex. tarifs) ; query facultatif (ex. ?t=bebe). Fermetures : ajouter aussi les dates dans horaires.json → closures.",
+  "items": [
+    {
+      "id": "identite-ants",
+      "from": "2026-01-01",
+      "to": "2030-12-31",
+      "text": {
+        "fr": "Photos d'identité conformes ANTS, sans rendez-vous, aux heures d'ouverture.",
+        "en": "ID photos to official French (ANTS) standards, no appointment needed during opening hours."
+      },
+      "link": { "fr": "En savoir plus", "en": "Find out more" },
+      "page": "identite"
+    },
+    {
+      "id": "fermeture-fetes-2026",
+      "from": "2026-12-22",
+      "to": "2027-01-01",
+      "text": {
+        "fr": "Le studio est fermé le 25 décembre et le 1er janvier. Très belles fêtes à vous.",
+        "en": "The studio is closed on 25 December and 1 January. Happy holidays."
+      },
+      "link": { "fr": "Voir les horaires", "en": "See opening hours" },
+      "page": "home",
+      "hash": "infos"
+    }
+  ]
+}
