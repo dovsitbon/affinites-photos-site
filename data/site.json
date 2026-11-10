@@ -5,11 +5,31 @@
   "phoneIntl": "+33 3 22 91 60 34",
   "tel": "+33322916034",
   "whatsapp": null,
-  "email": null,
-  "address": { "street": "5 rue de la Hotoie", "postalCode": "80000", "city": "Amiens", "region": "Hauts-de-France", "country": "FR" },
-  "geo": { "lat": 49.8964487, "lng": 2.2923413 },
+  "email": "affinites.photos@fcvnet.net",
+  "address": {
+    "street": "5 rue de la Hotoie",
+    "postalCode": "80000",
+    "city": "Amiens",
+    "region": "Hauts-de-France",
+    "country": "FR"
+  },
+  "geo": {
+    "lat": 49.8964487,
+    "lng": 2.2923413
+  },
   "maps": "https://www.google.com/maps/search/?api=1&query=Affinit%C3%A9s+Photos+5+rue+de+la+Hotoie+80000+Amiens",
   "mapsEmbed": "https://www.google.com/maps?q=Affinit%C3%A9s+Photos,+5+rue+de+la+Hotoie,+80000+Amiens&z=16&output=embed",
-  "rating": { "value": 4.7, "count": 180, "asOf": "2026-11-10", "source": "Google" },
-  "legal": { "company": null, "siret": null, "director": null, "host": "Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, États-Unis" }
+  "rating": {
+    "value": 4.7,
+    "count": 180,
+    "asOf": "2026-11-10",
+    "source": "Google"
+  },
+  "legal": {
+    "company": "AFFINITES PHOTOS (SCIC)",
+    "siret": "514 088 376 00017",
+    "director": null,
+    "host": "Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, États-Unis"
+  },
+  "facebook": "https://www.facebook.com/p/Affinit%C3%A9s-Photos-100080373548369/"
 }

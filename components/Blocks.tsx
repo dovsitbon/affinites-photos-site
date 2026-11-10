@@ -178,7 +178,7 @@ export function Faq({ d, className = "" }: { d: Dict; className?: string }) {
             <details key={f.q} className="group py-5">
               <summary className="flex cursor-pointer list-none items-center justify-between gap-6 text-[1.0625rem] font-normal [&::-webkit-details-marker]:hidden">
                 {f.q}
-                <span aria-hidden="true" className="display text-[1.6rem] leading-none text-gold-ink transition-transform duration-500 group-open:rotate-45">
+                <span aria-hidden="true" className="display text-[1.6rem] leading-none text-red-ink transition-transform duration-500 group-open:rotate-45">
                   +
                 </span>
               </summary>

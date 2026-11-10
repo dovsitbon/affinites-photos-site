@@ -15,7 +15,7 @@ import { fill, getDict, isLocale, type Locale } from "@/lib/i18n";
 
 const escapeHtml = (s: string) => s.replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]!);
 const html = (text: string) =>
-  `<div style="background:#F6F5F3;padding:32px 24px"><div style="max-width:560px;margin:0 auto;background:#FFFFFF;padding:32px 28px;font-family:Georgia,serif;font-size:15px;line-height:1.7;color:#222222;white-space:pre-wrap"><div style="font-size:12px;letter-spacing:.3em;text-transform:uppercase;color:#7A6130;margin-bottom:6px">Affinités Photos</div><div style="width:40px;height:1px;background:#C2A26A;margin-bottom:22px"></div>${escapeHtml(text).replace(/\*(.+?)\*/g, '<strong style="font-size:19px;font-weight:normal">$1</strong>')}</div></div>`;
+  `<div style="background:#F6F5F3;padding:32px 24px"><div style="max-width:560px;margin:0 auto;background:#FFFFFF;padding:32px 28px;font-family:Georgia,serif;font-size:15px;line-height:1.7;color:#222222;white-space:pre-wrap"><div style="font-size:12px;letter-spacing:.3em;text-transform:uppercase;color:#B3231F;margin-bottom:6px">Affinités Photos</div><div style="width:40px;height:1px;background:#D42A26;margin-bottom:22px"></div>${escapeHtml(text).replace(/\*(.+?)\*/g, '<strong style="font-size:19px;font-weight:normal">$1</strong>')}</div></div>`;
 
 export async function POST(req: Request) {
   let body: { lang?: unknown; data?: unknown };

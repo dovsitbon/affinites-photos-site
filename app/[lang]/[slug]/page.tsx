@@ -85,7 +85,7 @@ function Steps({ title, steps }: { title: string; steps: { title: string; text: 
       <ol className="mt-10 grid gap-10 md:grid-cols-3">
         {steps.map((s, i) => (
           <Reveal as="li" key={s.title} delay={i * 0.08} className="border-t border-ink/80 pt-5">
-            <span className="display text-[2.6rem] leading-none text-gold-ink">{i + 1}</span>
+            <span className="display text-[2.6rem] leading-none text-red-ink">{i + 1}</span>
             <h3 className="mt-3 text-[1.0625rem] font-normal">{s.title}</h3>
             <p className="mt-2 leading-relaxed text-muted">{s.text}</p>
           </Reveal>
@@ -135,7 +135,7 @@ function Identite({ lang, d }: { lang: Locale; d: Dict }) {
           <ol className="mt-10 grid gap-px border border-line bg-line sm:grid-cols-2 lg:grid-cols-4">
             {d.tips.items.map((it, i) => (
               <li key={it.title} className="bg-paper p-7">
-                <span className="display text-[2.2rem] leading-none text-gold-ink">{String(i + 1).padStart(2, "0")}</span>
+                <span className="display text-[2.2rem] leading-none text-red-ink">{String(i + 1).padStart(2, "0")}</span>
                 <h3 className="mt-4 text-[1.0625rem] font-normal">{it.title}</h3>
                 <p className="mt-2 text-[0.9375rem] leading-relaxed text-muted">{it.text}</p>
               </li>

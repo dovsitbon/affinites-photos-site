@@ -22,7 +22,7 @@ export function Footer({ lang, d }: { lang: Locale; d: Dict }) {
           <p className="mt-6 max-w-xs text-[0.9375rem] leading-relaxed text-paper/70">{f.tagline}</p>
         </div>
         <div>
-          <p className="eyebrow !text-gold">{f.contact}</p>
+          <p className="eyebrow !text-rose">{f.contact}</p>
           <address className="mt-4 text-[0.9375rem] leading-relaxed not-italic">
             {site.address.street}
             <br />
@@ -34,12 +34,12 @@ export function Footer({ lang, d }: { lang: Locale; d: Dict }) {
           </address>
         </div>
         <div>
-          <p className="eyebrow !text-gold">{d.infos.hours}</p>
+          <p className="eyebrow !text-rose">{d.infos.hours}</p>
           <p className="mt-4 text-[0.9375rem] leading-relaxed whitespace-pre-line">{f.days}</p>
           <p className="mt-1 text-[0.9375rem] text-paper/65">{f.closed}</p>
         </div>
         <div>
-          <p className="eyebrow !text-gold">{f.pages}</p>
+          <p className="eyebrow !text-rose">{f.pages}</p>
           <ul className="mt-4 space-y-2 text-[0.9375rem]">
             {links.map((l) => (
               <li key={l.to}>

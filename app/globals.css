@@ -1,15 +1,16 @@
 @import "tailwindcss";
 
 @theme {
-  /* Charte : blanc, gris perle, noir doux, rose poudré, or doux */
+  /* Charte : blanc, gris perle, noir doux, rose poudré ; accent rouge repris de l'enseigne ; or doux pour les étoiles */
   --color-paper: #ffffff;
   --color-pearl: #edebe8;
   --color-pearl-soft: #f6f5f3;
   --color-rose: #e9c9c1;
   --color-rose-soft: #f8eeeb;
   --color-gold: #c2a26a;
-  /* Or lisible en petit texte : 5,9:1 sur blanc */
-  --color-gold-ink: #7a6130;
+  /* Rouge de l'enseigne (rue de la Hotoie), et sa version lisible en petit texte : 6,4:1 sur blanc */
+  --color-red: #d42a26;
+  --color-red-ink: #b3231f;
   --color-ink: #222222;
   /* Texte secondaire : 7:1 sur blanc */
   --color-muted: #5c5955;
@@ -77,7 +78,7 @@
     font-weight: 400;
     letter-spacing: 0.26em;
     text-transform: uppercase;
-    color: var(--color-gold-ink);
+    color: var(--color-red-ink);
   }
   .display {
     font-family: var(--font-display);
@@ -104,7 +105,7 @@
     display: block;
     width: 3rem;
     height: 1px;
-    background: var(--color-gold);
+    background: var(--color-red);
   }
   .btn-solid,
   .btn-line {
@@ -130,8 +131,8 @@
     border: 1px solid var(--color-ink);
   }
   .btn-solid:hover {
-    background: var(--color-gold-ink);
-    border-color: var(--color-gold-ink);
+    background: var(--color-red-ink);
+    border-color: var(--color-red-ink);
   }
   .btn-solid:active,
   .btn-line:active {

@@ -36,6 +36,16 @@ w();
 w("Pour changer : `hero.title` dans `locales/fr.json` et `locales/en.json` (les mots entre `<em>` passent en italique).");
 w();
 
+w("## Trouvé en ligne (sources publiques)");
+w();
+w("- **Façade** : photo de la fiche Google Maps (hero, bloc identité, galerie « Le magasin »). L'enseigne réelle est rouge à lettres blanches : ce rouge sert d'accent sur le site.");
+w("- **Page Facebook** du studio : e-mail affinites.photos@fcvnet.net, coques et jouets personnalisés, cabanon au marché de Noël (2017).");
+w("- **Carte de visite** (photo Facebook) : développement argentique, tirage numérique, portrait, reportage, photo sur toile, livre album, cadres, albums, objets personnalisés. Elle indique d'anciens horaires (lundi 14 h – 19 h, mardi au samedi 9 h – 19 h) : à trancher avec ceux de Google.");
+w("- **Annuaires** : photos d'identité pour carte d'identité, passeport, visas, permis de conduire e-photo (ANTS), argentique développé sur place.");
+w("- **Registres publics** : AFFINITES PHOTOS, SCIC, SIRET 514 088 376 00017.");
+w("- **Vitrine** : autocollants CB / Visa / Mastercard sur la porte ; affiche « photos sur toile à partir de 25 € » (photo ancienne, prix non repris).");
+w("- **Photos d'illustration** : toutes les images hors façade et coque sont libres de droits (Unsplash, voir CREDITS.md), à remplacer par les photos du studio.");
+w();
 w("## À confirmer avec le studio");
 w();
 w("Ces points sont affichés sur le site mais reposent sur des suppositions raisonnables ; ils sont à valider avant de communiquer l'adresse du site.");

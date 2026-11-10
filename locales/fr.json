@@ -1,9 +1,20 @@
 {
   "meta": {
     "title": "Photographe et photos d'identité à Amiens | Affinités Photos",
-    "description": "Studio photo au 5 rue de la Hotoie à Amiens : photos d'identité conformes ANTS, séances bébé, naissance, famille et portrait, tirages et agrandissements. Noté 4,7/5 sur Google.",
+    "description": "Studio photo au 5 rue de la Hotoie à Amiens : photos d'identité conformes ANTS, séances bébé, famille et portrait, tirages, développement argentique. Noté 4,7/5 sur Google.",
     "ogAlt": "Affinités Photos, studio photo rue de la Hotoie à Amiens",
-    "topics": ["photo d'identité", "e-photo ANTS", "photographie de naissance", "photographie de bébé", "portrait de famille", "portrait en studio", "tirage photo", "agrandissement photo"]
+    "topics": [
+      "photo d'identité",
+      "e-photo ANTS",
+      "photographie de naissance",
+      "photographie de bébé",
+      "portrait de famille",
+      "portrait en studio",
+      "tirage photo",
+      "agrandissement photo",
+      "développement argentique",
+      "photo sur toile"
+    ]
   },
   "nav": {
     "identite": "Photo d'identité",
@@ -19,9 +30,15 @@
     "skip": "Aller au contenu",
     "lang": "Langue"
   },
-  "announce": { "close": "Fermer le bandeau" },
-  "intro": { "skip": "Passer" },
-  "frame": { "soon": "Photo à venir" },
+  "announce": {
+    "close": "Fermer le bandeau"
+  },
+  "intro": {
+    "skip": "Passer"
+  },
+  "frame": {
+    "soon": "Photo à venir"
+  },
   "hero": {
     "eyebrow": "Studio photo · rue de la Hotoie, Amiens",
     "title": "Le studio photo <em>du quartier</em>",
@@ -42,7 +59,15 @@
     "today": "aujourd'hui",
     "tomorrow": "demain"
   },
-  "days": ["dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"],
+  "days": [
+    "dimanche",
+    "lundi",
+    "mardi",
+    "mercredi",
+    "jeudi",
+    "vendredi",
+    "samedi"
+  ],
   "bar": {
     "label": "Demander une séance",
     "type": "Type de séance",
@@ -57,21 +82,51 @@
     "eyebrow": "Ce que nous faisons",
     "title": "De la photo d'identité au portrait de famille",
     "items": {
-      "identite": { "title": "Photo d'identité", "text": "Aux normes pour vos papiers, prête en quelques minutes." },
-      "bebe": { "title": "Bébé et naissance", "text": "Des séances calmes, au rythme de votre enfant." },
-      "famille": { "title": "Famille", "text": "Parents, enfants, grands-parents : tout le monde sur la photo." },
-      "portrait": { "title": "Portrait", "text": "Pour vous, pour un CV, pour offrir." },
-      "tirages": { "title": "Tirages et agrandissements", "text": "Vos photos de téléphone sur un vrai papier photo." },
-      "services": { "title": "Services", "text": "Dépôt et retrait de colis, et les petits services du quotidien." }
+      "identite": {
+        "title": "Photo d'identité",
+        "text": "Aux normes pour vos papiers, prête en quelques minutes."
+      },
+      "bebe": {
+        "title": "Bébé et naissance",
+        "text": "Des séances calmes, au rythme de votre enfant."
+      },
+      "famille": {
+        "title": "Famille",
+        "text": "Parents, enfants, grands-parents : tout le monde sur la photo."
+      },
+      "portrait": {
+        "title": "Portrait",
+        "text": "Pour vous, pour un CV, pour offrir."
+      },
+      "tirages": {
+        "title": "Tirages et agrandissements",
+        "text": "Numérique ou argentique, en petit format, en grand ou sur toile."
+      },
+      "services": {
+        "title": "Argentique et objets photo",
+        "text": "Développement sur place, coques, mugs et cadeaux personnalisés."
+      }
     }
   },
   "strip": {
     "title": "L'essentiel",
     "items": [
-      { "title": "Identité conforme ANTS", "text": "Format, fond et cadrage vérifiés avant de vous remettre la photo." },
-      { "title": "Avec ou sans rendez-vous", "text": "L'identité se fait sur place ; les séances se réservent." },
-      { "title": "Tirages rapides", "text": "Depuis votre téléphone, une clé USB ou une carte mémoire." },
-      { "title": "03 22 91 60 34", "text": "Une question ? Le plus simple est d'appeler le studio." }
+      {
+        "title": "Identité conforme ANTS",
+        "text": "Format, fond et cadrage vérifiés avant de vous remettre la photo."
+      },
+      {
+        "title": "Avec ou sans rendez-vous",
+        "text": "L'identité se fait sur place ; les séances se réservent."
+      },
+      {
+        "title": "Tirages et argentique",
+        "text": "Depuis votre téléphone ou vos pellicules, développées sur place."
+      },
+      {
+        "title": "03 22 91 60 34",
+        "text": "Une question ? Le plus simple est d'appeler le studio."
+      }
     ]
   },
   "prices": {
@@ -81,7 +136,11 @@
     "note": "Tarifs en cours de mise à jour : pour un prix précis, appelez le studio.",
     "from": "à partir de {price}",
     "onRequest": "tarif au studio",
-    "cols": { "service": "Prestation", "price": "Prix", "delay": "Délai" },
+    "cols": {
+      "service": "Prestation",
+      "price": "Prix",
+      "delay": "Délai"
+    },
     "delayNone": "précisé à la commande",
     "book": "Réserver"
   },
@@ -89,7 +148,12 @@
     "eyebrow": "Les séances",
     "title": "Trois séances, côte à côte",
     "lead": "Pour vous aider à choisir. Les détails se décident ensemble, au téléphone ou au studio, avant le jour de la séance.",
-    "rows": { "who": "Pour qui", "when": "Le bon moment", "how": "Comment ça se passe", "price": "Prix" },
+    "rows": {
+      "who": "Pour qui",
+      "when": "Le bon moment",
+      "how": "Comment ça se passe",
+      "price": "Prix"
+    },
     "offers": [
       {
         "id": "bebe",
@@ -117,9 +181,14 @@
   },
   "gallery": {
     "eyebrow": "Galerie",
-    "title": "Quelques images du studio",
-    "lead": "Les photos de séances sont publiées uniquement avec l'accord des familles.",
-    "tabs": { "bebe": "Bébé et naissance", "famille": "Famille", "portrait": "Portrait", "studio": "Le studio" },
+    "title": "Quelques images",
+    "lead": "Photos d'illustration pour l'instant : les photos de séances du studio seront publiées ici avec l'accord des familles.",
+    "tabs": {
+      "bebe": "Bébé et naissance",
+      "famille": "Famille",
+      "portrait": "Portrait",
+      "studio": "Le magasin"
+    },
     "tablist": "Type de séance"
   },
   "blocks": {
@@ -138,14 +207,20 @@
     "tirages": {
       "eyebrow": "Tirages et cadeaux",
       "title": "Vos photos méritent mieux qu'un écran",
-      "text": "Apportez votre téléphone, une clé USB ou une carte mémoire : nous tirons vos photos sur papier, en petit format comme en agrandissement, avec de quoi les encadrer ou les offrir.",
+      "text": "Apportez votre téléphone, une clé USB ou vos pellicules : nous développons et tirons vos photos sur place, en petit format, en agrandissement ou sur toile, avec des cadres, des livres albums et des objets personnalisés pour les offrir.",
       "cta": "Voir les tarifs"
     }
   },
   "reviews": {
     "eyebrow": "Avis Google",
     "title": "Ce que nos clients retiennent",
-    "themes": ["Les photos d'identité", "Des prix justes", "Un accueil souriant", "Les photos de bébé", "Le service colis"],
+    "themes": [
+      "Les photos d'identité",
+      "Des prix justes",
+      "Un accueil souriant",
+      "Les photos de bébé",
+      "Le service colis"
+    ],
     "cta": "Lire les avis sur Google"
   },
   "tips": {
@@ -153,10 +228,22 @@
     "title": "Avant votre photo d'identité",
     "lead": "Quatre choses à savoir pour que la photo soit acceptée, et que vous vous plaisiez dessus.",
     "items": [
-      { "title": "Le visage dégagé", "text": "Tête nue, front et yeux bien visibles. Pensez à relever une mèche ou à attacher vos cheveux s'ils tombent sur le visage." },
-      { "title": "Une expression neutre", "text": "Bouche fermée, regard droit vers l'objectif. Ce n'est pas le moment du grand sourire, mais on peut avoir l'air détendu." },
-      { "title": "Les lunettes, plutôt non", "text": "Elles sont tolérées sans reflets ni verres teintés. Le plus sûr reste de les retirer le temps de la photo." },
-      { "title": "Une photo récente", "text": "Elle doit dater de moins de six mois et vous ressembler. Une photo ancienne peut faire refuser le dossier." }
+      {
+        "title": "Le visage dégagé",
+        "text": "Tête nue, front et yeux bien visibles. Pensez à relever une mèche ou à attacher vos cheveux s'ils tombent sur le visage."
+      },
+      {
+        "title": "Une expression neutre",
+        "text": "Bouche fermée, regard droit vers l'objectif. Ce n'est pas le moment du grand sourire, mais on peut avoir l'air détendu."
+      },
+      {
+        "title": "Les lunettes, plutôt non",
+        "text": "Elles sont tolérées sans reflets ni verres teintés. Le plus sûr reste de les retirer le temps de la photo."
+      },
+      {
+        "title": "Une photo récente",
+        "text": "Elle doit dater de moins de six mois et vous ressembler. Une photo ancienne peut faire refuser le dossier."
+      }
     ]
   },
   "infos": {
@@ -176,16 +263,34 @@
     "eyebrow": "Questions fréquentes",
     "title": "Avant de venir",
     "items": [
-      { "q": "Faut-il prendre rendez-vous pour une photo d'identité ?", "a": "Non. Les photos d'identité se font sans rendez-vous, pendant les heures d'ouverture du studio : du mardi au vendredi de 9 h 30 à 19 h, le samedi de 9 h 30 à 18 h. Les séances bébé, famille et portrait, elles, se réservent." },
-      { "q": "Vos photos d'identité sont-elles acceptées pour un passeport ou une carte d'identité ?", "a": "Oui. Les photos sont réalisées selon les normes officielles françaises (format 35 × 45 mm, fond clair uni, visage de face, expression neutre) et vérifiées avant de vous être remises. Pour une demande de permis de conduire en ligne, demandez une e-photo avec code et signature numérique." },
-      { "q": "Quels sont les horaires du studio ?", "a": "Affinités Photos est ouvert du mardi au vendredi de 9 h 30 à 19 h et le samedi de 9 h 30 à 18 h. Le studio est fermé le dimanche et le lundi." },
-      { "q": "En combien de temps ai-je mes photos ?", "a": "Une photo d'identité est prête sur place, en quelques minutes. Pour les tirages, les agrandissements et les photos de séance, le délai vous est indiqué au moment de la commande." },
-      { "q": "Quels moyens de paiement acceptez-vous ?", "a": "Le règlement se fait au studio. Si vous avez un doute sur un moyen de paiement, appelez-nous au 03 22 91 60 34 avant de venir." },
-      { "q": "Où se trouve le studio et où se garer ?", "a": "Au 5 rue de la Hotoie, 80000 Amiens, à quelques minutes à pied du centre-ville. On peut stationner dans la rue et dans les rues voisines." }
+      {
+        "q": "Faut-il prendre rendez-vous pour une photo d'identité ?",
+        "a": "Non. Les photos d'identité se font sans rendez-vous, pendant les heures d'ouverture du studio : du mardi au vendredi de 9 h 30 à 19 h, le samedi de 9 h 30 à 18 h. Les séances bébé, famille et portrait, elles, se réservent."
+      },
+      {
+        "q": "Vos photos d'identité sont-elles acceptées pour un passeport ou une carte d'identité ?",
+        "a": "Oui. Les photos sont réalisées selon les normes officielles françaises (format 35 × 45 mm, fond clair uni, visage de face, expression neutre) et vérifiées avant de vous être remises. Pour une demande de permis de conduire en ligne, demandez une e-photo avec code et signature numérique."
+      },
+      {
+        "q": "Quels sont les horaires du studio ?",
+        "a": "Affinités Photos est ouvert du mardi au vendredi de 9 h 30 à 19 h et le samedi de 9 h 30 à 18 h. Le studio est fermé le dimanche et le lundi."
+      },
+      {
+        "q": "En combien de temps ai-je mes photos ?",
+        "a": "Une photo d'identité est prête sur place, en quelques minutes. Pour les tirages, les agrandissements et les photos de séance, le délai vous est indiqué au moment de la commande."
+      },
+      {
+        "q": "Quels moyens de paiement acceptez-vous ?",
+        "a": "Le règlement se fait au studio. Si vous avez un doute sur un moyen de paiement, appelez-nous au 03 22 91 60 34 avant de venir."
+      },
+      {
+        "q": "Où se trouve le studio et où se garer ?",
+        "a": "Au 5 rue de la Hotoie, 80000 Amiens, à quelques minutes à pied du centre-ville. On peut stationner dans la rue et dans les rues voisines."
+      }
     ]
   },
   "footer": {
-    "tagline": "Studio photo à Amiens : photos d'identité, séances bébé, famille et portrait, tirages.",
+    "tagline": "Studio photo à Amiens : photos d'identité, séances bébé, famille et portrait, tirages et développement argentique.",
     "contact": "Contact",
     "pages": "Le site",
     "days": "Mardi – vendredi : 9 h 30 – 19 h\nSamedi : 9 h 30 – 18 h",
@@ -199,7 +304,11 @@
     "lead": "Dites-nous ce que vous souhaitez et quand vous êtes disponible. Le studio vous rappelle pour confirmer le jour et l'heure : rien n'est réservé tant que nous ne vous avons pas eu au téléphone.",
     "preferCall": "Vous préférez appeler ?",
     "walkIn": "Pour une photo d'identité, pas besoin de réserver : venez directement aux heures d'ouverture.",
-    "sections": { "type": "Votre demande", "when": "Quand ?", "contact": "Vos coordonnées" },
+    "sections": {
+      "type": "Votre demande",
+      "when": "Quand ?",
+      "contact": "Vos coordonnées"
+    },
     "fields": {
       "type": "Type de séance",
       "types": {
@@ -214,7 +323,12 @@
       "date": "Date souhaitée",
       "dateHint": "(facultatif)",
       "slot": "Créneau souhaité",
-      "slotList": { "matin": "Matin (9 h 30 – 12 h)", "midi": "Midi (12 h – 14 h)", "apres-midi": "Après-midi (14 h – 17 h)", "fin": "Fin de journée (après 17 h)" },
+      "slotList": {
+        "matin": "Matin (9 h 30 – 12 h)",
+        "midi": "Midi (12 h – 14 h)",
+        "apres-midi": "Après-midi (14 h – 17 h)",
+        "fin": "Fin de journée (après 17 h)"
+      },
       "name": "Nom et prénom",
       "phone": "Téléphone",
       "email": "E-mail",
@@ -266,25 +380,61 @@
       "intro": "Affinités Photos réalise vos photos d'identité au 5 rue de la Hotoie, sans rendez-vous, du mardi au samedi. Chaque photo est cadrée et vérifiée selon les normes officielles avant de vous être remise : vous repartez avec en quelques minutes.",
       "cta": "Venir sans rendez-vous",
       "sections": [
-        { "title": "Pour quels documents ?", "text": "Carte nationale d'identité, passeport, permis de conduire, titre de séjour, carte Vitale, carte de transport, et les formats demandés par d'autres pays pour un visa ou un passeport étranger." },
-        { "title": "L'e-photo pour le permis", "text": "Pour une demande de permis de conduire en ligne sur le site de l'ANTS, il faut une photo numérique avec un code et votre signature. Demandez une e-photo : le code est valable six mois." },
-        { "title": "Bébés et enfants", "text": "Les règles sont un peu plus souples pour les tout-petits, mais la photo reste délicate à réussir. On prend le temps, et on recommence autant qu'il faut." }
+        {
+          "title": "Pour quels documents ?",
+          "text": "Carte nationale d'identité, passeport, permis de conduire, titre de séjour, carte Vitale, carte de transport, et les formats demandés par d'autres pays pour un visa ou un passeport étranger."
+        },
+        {
+          "title": "L'e-photo pour le permis",
+          "text": "Pour une demande de permis de conduire en ligne sur le site de l'ANTS, il faut une photo numérique avec un code et votre signature. Demandez une e-photo : le code est valable six mois."
+        },
+        {
+          "title": "Bébés et enfants",
+          "text": "Les règles sont un peu plus souples pour les tout-petits, mais la photo reste délicate à réussir. On prend le temps, et on recommence autant qu'il faut."
+        }
       ],
       "rulesTitle": "Ce que demande l'administration",
       "rulesLead": "Les règles officielles d'une photo d'identité française, en bref.",
       "rules": [
-        { "k": "Format", "v": "35 mm de large sur 45 mm de haut" },
-        { "k": "Visage", "v": "De face, de 32 à 36 mm du menton au sommet du crâne" },
-        { "k": "Fond", "v": "Uni et clair (gris ou bleu clair), jamais blanc" },
-        { "k": "Expression", "v": "Neutre, bouche fermée, yeux ouverts" },
-        { "k": "Tête", "v": "Nue, sans couvre-chef, foulard ni serre-tête" },
-        { "k": "Ancienneté", "v": "Moins de six mois" }
+        {
+          "k": "Format",
+          "v": "35 mm de large sur 45 mm de haut"
+        },
+        {
+          "k": "Visage",
+          "v": "De face, de 32 à 36 mm du menton au sommet du crâne"
+        },
+        {
+          "k": "Fond",
+          "v": "Uni et clair (gris ou bleu clair), jamais blanc"
+        },
+        {
+          "k": "Expression",
+          "v": "Neutre, bouche fermée, yeux ouverts"
+        },
+        {
+          "k": "Tête",
+          "v": "Nue, sans couvre-chef, foulard ni serre-tête"
+        },
+        {
+          "k": "Ancienneté",
+          "v": "Moins de six mois"
+        }
       ],
       "howTitle": "Comment ça se passe",
       "how": [
-        { "title": "Vous venez quand vous voulez", "text": "Sans rendez-vous, aux heures d'ouverture. Dites-nous pour quel document est la photo." },
-        { "title": "On fait la photo", "text": "Quelques essais si besoin, jusqu'à ce que la photo soit conforme, et qu'elle vous convienne." },
-        { "title": "Vous repartez avec", "text": "Vos photos imprimées, ou votre e-photo avec son code, en quelques minutes." }
+        {
+          "title": "Vous venez quand vous voulez",
+          "text": "Sans rendez-vous, aux heures d'ouverture. Dites-nous pour quel document est la photo."
+        },
+        {
+          "title": "On fait la photo",
+          "text": "Quelques essais si besoin, jusqu'à ce que la photo soit conforme, et qu'elle vous convienne."
+        },
+        {
+          "title": "Vous repartez avec",
+          "text": "Vos photos imprimées, ou votre e-photo avec son code, en quelques minutes."
+        }
       ],
       "related": "Les prix des photos d'identité sont dans",
       "tips": "Nos conseils avant la photo"
@@ -299,57 +449,75 @@
       "process": {
         "title": "Le déroulé d'une séance",
         "steps": [
-          { "title": "On en parle avant", "text": "Par téléphone ou au studio : l'âge du bébé, vos envies, qui sera sur les photos. On fixe ensemble le jour et l'heure." },
-          { "title": "Le jour de la séance", "text": "Vous arrivez sans stress. On s'arrête pour un biberon, une tétée, un câlin, aussi souvent qu'il le faut." },
-          { "title": "Vous choisissez vos images", "text": "Nous vous présentons les photos, et vous choisissez celles que vous gardez, en tirages ou en agrandissements." }
+          {
+            "title": "On en parle avant",
+            "text": "Par téléphone ou au studio : l'âge du bébé, vos envies, qui sera sur les photos. On fixe ensemble le jour et l'heure."
+          },
+          {
+            "title": "Le jour de la séance",
+            "text": "Vous arrivez sans stress. On s'arrête pour un biberon, une tétée, un câlin, aussi souvent qu'il le faut."
+          },
+          {
+            "title": "Vous choisissez vos images",
+            "text": "Nous vous présentons les photos, et vous choisissez celles que vous gardez, en tirages ou en agrandissements."
+          }
         ]
       },
       "sections": [
-        { "title": "Naissance", "text": "Les premières semaines sont le meilleur moment : le bébé dort beaucoup et se laisse installer en douceur. Pensez à réserver avant la naissance, on ajuste la date ensuite." },
-        { "title": "Les premiers mois", "text": "Le premier sourire, la position assise, le premier anniversaire : chaque étape se prête à une séance, seule ou en famille." },
-        { "title": "Grossesse et famille", "text": "Avant l'arrivée du bébé, ou tous ensemble quand il est là : les grands frères, les grandes sœurs et les grands-parents sont les bienvenus." }
+        {
+          "title": "Naissance",
+          "text": "Les premières semaines sont le meilleur moment : le bébé dort beaucoup et se laisse installer en douceur. Pensez à réserver avant la naissance, on ajuste la date ensuite."
+        },
+        {
+          "title": "Les premiers mois",
+          "text": "Le premier sourire, la position assise, le premier anniversaire : chaque étape se prête à une séance, seule ou en famille."
+        },
+        {
+          "title": "Grossesse et famille",
+          "text": "Avant l'arrivée du bébé, ou tous ensemble quand il est là : les grands frères, les grandes sœurs et les grands-parents sont les bienvenus."
+        }
       ],
       "gallery": "Quelques images de séances",
-      "consent": "Les photos de séances sont publiées uniquement avec l'accord des familles.",
+      "consent": "Photos d'illustration pour l'instant : les photos de séances du studio seront publiées ici avec l'accord des familles.",
       "closing": "Les premiers mois ne reviennent pas. Les photos, elles, restent."
     }
   },
   "legal": {
     "metaTitle": "Mentions légales | Affinités Photos",
     "title": "Mentions légales",
-    "pending": "Informations légales en cours de complétion (raison sociale, SIRET).",
+    "pending": "Informations issues des registres publics, à confirmer avec le studio.",
     "editor": "Éditeur du site",
-    "editorText": "Affinités Photos, 5 rue de la Hotoie, 80000 Amiens. Téléphone : 03 22 91 60 34.",
+    "editorText": "AFFINITES PHOTOS, société coopérative d'intérêt collectif (SCIC), 5 rue de la Hotoie, 80000 Amiens. Téléphone : 03 22 91 60 34. E-mail : affinites.photos@fcvnet.net.",
     "host": "Hébergeur",
     "data": "Données personnelles",
     "dataText": "Les informations saisies dans le formulaire de réservation (nom, téléphone, e-mail, message) servent uniquement à traiter votre demande. Elles ne sont ni cédées ni utilisées à des fins publicitaires. Vous pouvez demander leur suppression en appelant le studio. Le site n'utilise pas de cookies publicitaires.",
     "photos": "Photos",
-    "photosText": "Les photos de séances présentées sur ce site sont publiées avec l'accord des personnes photographiées ou de leurs représentants légaux. Toute reproduction est interdite sans autorisation."
+    "photosText": "La photo de la façade est celle de la fiche publique du commerce. Les autres images sont des photos d'illustration libres de droits (Unsplash), en attendant les photos du studio. Les photos de séances ne seront publiées qu'avec l'accord des personnes photographiées ou de leurs représentants légaux."
   },
   "slots": {
-    "hero": "Le studio Affinités Photos, rue de la Hotoie",
-    "tile-identite": "Prise d'une photo d'identité au studio",
-    "tile-bebe": "Détail d'une séance naissance : petites mains",
-    "tile-famille": "Une famille pendant une séance au studio",
-    "tile-portrait": "Portrait réalisé au studio",
-    "tile-tirages": "Tirages photo et agrandissements",
-    "tile-services": "Le comptoir du studio",
-    "block-identite": "Photos d'identité prêtes à être remises",
-    "block-seances": "Le coin séance bébé du studio",
-    "block-tirages": "Tirages, cadres et idées cadeaux",
-    "bebe-1": "Séance naissance : bébé endormi",
-    "bebe-2": "Séance bébé : petits pieds",
-    "bebe-3": "Séance bébé : accessoires et décor",
-    "famille-1": "Séance famille : mains réunies",
-    "famille-2": "Séance famille au studio",
-    "famille-3": "Séance fratrie",
-    "portrait-1": "Portrait en studio",
-    "portrait-2": "Portrait professionnel",
-    "portrait-3": "Portrait en noir et blanc",
-    "studio-1": "La façade, 5 rue de la Hotoie",
-    "studio-2": "L'intérieur du studio",
-    "studio-3": "L'équipe d'Affinités Photos",
-    "page-identite": "Photos d'identité réalisées au studio",
-    "page-bebe": "Séance bébé au studio"
+    "hero": "La façade d'Affinités Photos, 5 rue de la Hotoie à Amiens : enseigne rouge et vitrine de portraits",
+    "tile-identite": "Appareil photo reflex et son objectif",
+    "tile-bebe": "Petits pieds d'un nouveau-né sur un drap à pois roses",
+    "tile-famille": "Mains d'une famille posées les unes sur les autres",
+    "tile-portrait": "Éclairage de studio et fauteuil de pose devant un fond blanc",
+    "tile-tirages": "Tirages photo étalés sur un drap blanc",
+    "tile-services": "Bande de pellicule photo argentique",
+    "block-identite": "La vitrine d'Affinités Photos, rue de la Hotoie",
+    "block-seances": "Pieds d'un bébé dans un drap blanc",
+    "block-tirages": "Tirages photo en couleur posés sur une table",
+    "bebe-1": "Pieds d'un nouveau-né emmitouflé dans une couverture blanche",
+    "bebe-2": "Main d'un bébé posée sur un drap",
+    "bebe-3": "Pieds d'un bébé dans un drap blanc",
+    "famille-1": "Mains d'une famille posées les unes sur les autres",
+    "famille-2": "Mains de trois générations réunies, en noir et blanc",
+    "famille-3": "Main d'un bébé dans la paume d'un adulte, en noir et blanc",
+    "portrait-1": "Éclairage de studio et fauteuil de pose devant un fond blanc",
+    "portrait-2": "Appareil photo sur son trépied",
+    "portrait-3": "Appareil photo et objectifs vus de dessus",
+    "studio-1": "La façade d'Affinités Photos, 5 rue de la Hotoie à Amiens",
+    "studio-2": "Détail de l'enseigne : le petit photographe blanc au-dessus de la vitrine",
+    "studio-3": "Coque de téléphone personnalisée avec une photo de paon",
+    "page-identite": "Appareil photo sur son trépied",
+    "page-bebe": "Main d'un adulte tenant la main d'un nouveau-né"
   }
 }

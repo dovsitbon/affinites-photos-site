@@ -16,6 +16,16 @@ Voir aussi : [INFOS-A-DEMANDER.md](INFOS-A-DEMANDER.md).
 
 Pour changer : `hero.title` dans `locales/fr.json` et `locales/en.json` (les mots entre `<em>` passent en italique).
 
+## Trouvé en ligne (sources publiques)
+
+- **Façade** : photo de la fiche Google Maps (hero, bloc identité, galerie « Le magasin »). L'enseigne réelle est rouge à lettres blanches : ce rouge sert d'accent sur le site.
+- **Page Facebook** du studio : e-mail affinites.photos@fcvnet.net, coques et jouets personnalisés, cabanon au marché de Noël (2017).
+- **Carte de visite** (photo Facebook) : développement argentique, tirage numérique, portrait, reportage, photo sur toile, livre album, cadres, albums, objets personnalisés. Elle indique d'anciens horaires (lundi 14 h – 19 h, mardi au samedi 9 h – 19 h) : à trancher avec ceux de Google.
+- **Annuaires** : photos d'identité pour carte d'identité, passeport, visas, permis de conduire e-photo (ANTS), argentique développé sur place.
+- **Registres publics** : AFFINITES PHOTOS, SCIC, SIRET 514 088 376 00017.
+- **Vitrine** : autocollants CB / Visa / Mastercard sur la porte ; affiche « photos sur toile à partir de 25 € » (photo ancienne, prix non repris).
+- **Photos d'illustration** : toutes les images hors façade et coque sont libres de droits (Unsplash, voir CREDITS.md), à remplacer par les photos du studio.
+
 ## À confirmer avec le studio
 
 Ces points sont affichés sur le site mais reposent sur des suppositions raisonnables ; ils sont à valider avant de communiquer l'adresse du site.
@@ -62,14 +72,19 @@ Ces points sont affichés sur le site mais reposent sur des suppositions raisonn
 |---|---|---|
 | **Portrait au studio**<br>*Studio portrait* | précisé à la commande | à remplir |
 | **Portrait professionnel (CV, LinkedIn, site)**<br>*Professional headshot (CV, LinkedIn, website)* | précisé à la commande | à remplir |
+| **Reportage**<br>*Event photography* | précisé à la commande | à remplir |
 
 ### Tirages & agrandissements / Prints & enlargements
 
 | Prestation | Délai | Prix « à partir de » |
 |---|---|---|
-| **Tirage photo 10 × 15 depuis téléphone, clé USB ou carte**<br>*10 × 15 cm print from phone, USB stick or card* | précisé à la commande | à remplir |
+| **Tirage numérique depuis téléphone, clé USB ou carte**<br>*Digital prints from phone, USB stick or card* | précisé à la commande | à remplir |
+| **Développement argentique sur place**<br>*Film developing on site* | précisé à la commande | à remplir |
 | **Agrandissement**<br>*Enlargement* | précisé à la commande | à remplir |
-| **Cadres et idées cadeaux photo**<br>*Frames and photo gift ideas* | précisé à la commande | à remplir |
+| **Photo sur toile d'après vos photos**<br>*Canvas print from your photos* | précisé à la commande | à remplir |
+| **Livre album**<br>*Photo book* | précisé à la commande | à remplir |
+| **Cadres et albums**<br>*Frames and albums* | précisé à la commande | à remplir |
+| **Objets personnalisés (coques de téléphone, mugs, jouets)**<br>*Personalised items (phone cases, mugs, toys)* | précisé à la commande | à remplir |
 
 ## Horaires (`data/horaires.json`) — à confirmer
 
@@ -101,7 +116,7 @@ Chaque ligne : clé, français, anglais. Les textes marqués **à valider** dema
 | Clé | Français | English | |
 |---|---|---|---|
 | `meta.title` | Photographe et photos d'identité à Amiens | Affinités Photos | Photographer and ID photos in Amiens | Affinités Photos | |
-| `meta.description` | Studio photo au 5 rue de la Hotoie à Amiens : photos d'identité conformes ANTS, séances bébé, naissance, famille et portrait, tirages et agrandissements. Noté 4,7/5 sur Google. | Photo studio at 5 rue de la Hotoie, Amiens: ID photos to official French (ANTS) standards, baby, newborn, family and portrait sessions, prints and enlargements. Rated 4.7/5 on Google. | |
+| `meta.description` | Studio photo au 5 rue de la Hotoie à Amiens : photos d'identité conformes ANTS, séances bébé, famille et portrait, tirages, développement argentique. Noté 4,7/5 sur Google. | Photo studio at 5 rue de la Hotoie, Amiens: ANTS-compliant ID photos, baby, family and portrait sessions, prints and film developing. Rated 4.7/5 on Google. | |
 | `meta.ogAlt` | Affinités Photos, studio photo rue de la Hotoie à Amiens | Affinités Photos, photo studio on rue de la Hotoie in Amiens | |
 | `meta.topics.0` | photo d'identité | ID photos | |
 | `meta.topics.1` | e-photo ANTS | ANTS e-photo | |
@@ -111,6 +126,8 @@ Chaque ligne : clé, français, anglais. Les textes marqués **à valider** dema
 | `meta.topics.5` | portrait en studio | studio portraits | |
 | `meta.topics.6` | tirage photo | photo printing | |
 | `meta.topics.7` | agrandissement photo | photo enlargements | |
+| `meta.topics.8` | développement argentique | film developing | |
+| `meta.topics.9` | photo sur toile | canvas prints | |
 
 ### nav
 
@@ -204,9 +221,9 @@ Chaque ligne : clé, français, anglais. Les textes marqués **à valider** dema
 | `tiles.items.portrait.title` | Portrait | Portrait | |
 | `tiles.items.portrait.text` | Pour vous, pour un CV, pour offrir. | For yourself, for a CV, or as a gift. | |
 | `tiles.items.tirages.title` | Tirages et agrandissements | Prints and enlargements | |
-| `tiles.items.tirages.text` | Vos photos de téléphone sur un vrai papier photo. | Your phone pictures on real photo paper. | |
-| `tiles.items.services.title` | Services | Services | **à valider (service colis)** |
-| `tiles.items.services.text` | Dépôt et retrait de colis, et les petits services du quotidien. | Parcel drop-off and collection, and other everyday services. | **à valider (service colis)** |
+| `tiles.items.tirages.text` | Numérique ou argentique, en petit format, en grand ou sur toile. | Digital or film, small, enlarged or on canvas. | |
+| `tiles.items.services.title` | Argentique et objets photo | Film and photo gifts | **à valider (service colis)** |
+| `tiles.items.services.text` | Développement sur place, coques, mugs et cadeaux personnalisés. | Developing on site, phone cases, mugs and personalised gifts. | **à valider (service colis)** |
 
 ### strip
 
@@ -217,8 +234,8 @@ Chaque ligne : clé, français, anglais. Les textes marqués **à valider** dema
 | `strip.items.0.text` | Format, fond et cadrage vérifiés avant de vous remettre la photo. | Size, background and framing checked before we hand them over. | **à valider** |
 | `strip.items.1.title` | Avec ou sans rendez-vous | With or without booking | **à valider** |
 | `strip.items.1.text` | L'identité se fait sur place ; les séances se réservent. | ID photos are walk-in; sessions are booked ahead. | **à valider** |
-| `strip.items.2.title` | Tirages rapides | Quick prints | **à valider** |
-| `strip.items.2.text` | Depuis votre téléphone, une clé USB ou une carte mémoire. | From your phone, a USB stick or a memory card. | **à valider** |
+| `strip.items.2.title` | Tirages et argentique | Prints and film | **à valider** |
+| `strip.items.2.text` | Depuis votre téléphone ou vos pellicules, développées sur place. | From your phone or your film rolls, developed on site. | **à valider** |
 | `strip.items.3.title` | 03 22 91 60 34 | 03 22 91 60 34 | **à valider** |
 | `strip.items.3.text` | Une question ? Le plus simple est d'appeler le studio. | Got a question? Calling the studio is the quickest way. | **à valider** |
 
@@ -271,12 +288,12 @@ Chaque ligne : clé, français, anglais. Les textes marqués **à valider** dema
 | Clé | Français | English | |
 |---|---|---|---|
 | `gallery.eyebrow` | Galerie | Gallery | |
-| `gallery.title` | Quelques images du studio | A few pictures from the studio | |
-| `gallery.lead` | Les photos de séances sont publiées uniquement avec l'accord des familles. | Session photos are only published with the families' consent. | |
+| `gallery.title` | Quelques images | A few pictures | |
+| `gallery.lead` | Photos d'illustration pour l'instant : les photos de séances du studio seront publiées ici avec l'accord des familles. | Illustrative photos for now: the studio's own session photos will be published here with the families' consent. | |
 | `gallery.tabs.bebe` | Bébé et naissance | Baby and newborn | |
 | `gallery.tabs.famille` | Famille | Family | |
 | `gallery.tabs.portrait` | Portrait | Portrait | |
-| `gallery.tabs.studio` | Le studio | The studio | |
+| `gallery.tabs.studio` | Le magasin | The shop | |
 | `gallery.tablist` | Type de séance | Session type | |
 
 ### blocks
@@ -293,7 +310,7 @@ Chaque ligne : clé, français, anglais. Les textes marqués **à valider** dema
 | `blocks.seances.cta` | Réserver une séance | Book a session | **à valider** |
 | `blocks.tirages.eyebrow` | Tirages et cadeaux | Prints and gifts | **à valider** |
 | `blocks.tirages.title` | Vos photos méritent mieux qu'un écran | Your photos deserve more than a screen | **à valider** |
-| `blocks.tirages.text` | Apportez votre téléphone, une clé USB ou une carte mémoire : nous tirons vos photos sur papier, en petit format comme en agrandissement, avec de quoi les encadrer ou les offrir. | Bring your phone, a USB stick or a memory card: we print your photos on paper, small or enlarged, with frames and gift ideas to go with them. | **à valider** |
+| `blocks.tirages.text` | Apportez votre téléphone, une clé USB ou vos pellicules : nous développons et tirons vos photos sur place, en petit format, en agrandissement ou sur toile, avec des cadres, des livres albums et des objets personnalisés pour les offrir. | Bring your phone, a USB stick or your film rolls: we develop and print your photos on site, small, enlarged or on canvas, with frames, photo books and personalised items to give as gifts. | **à valider** |
 | `blocks.tirages.cta` | Voir les tarifs | See prices | **à valider** |
 
 ### reviews
@@ -364,7 +381,7 @@ Chaque ligne : clé, français, anglais. Les textes marqués **à valider** dema
 
 | Clé | Français | English | |
 |---|---|---|---|
-| `footer.tagline` | Studio photo à Amiens : photos d'identité, séances bébé, famille et portrait, tirages. | Photo studio in Amiens: ID photos, baby, family and portrait sessions, prints. | |
+| `footer.tagline` | Studio photo à Amiens : photos d'identité, séances bébé, famille et portrait, tirages et développement argentique. | Photo studio in Amiens: ID photos, baby, family and portrait sessions, prints and film developing. | |
 | `footer.contact` | Contact | Contact | |
 | `footer.pages` | Le site | The site | |
 | `footer.days` | Mardi – vendredi : 9 h 30 – 19 h<br>Samedi : 9 h 30 – 18 h | Tuesday – Friday: 9:30am – 7pm<br>Saturday: 9:30am – 6pm | **à valider (horaires)** |
@@ -491,7 +508,7 @@ Chaque ligne : clé, français, anglais. Les textes marqués **à valider** dema
 | `pages.bebe.sections.2.title` | Grossesse et famille | Maternity and family | **à valider (déroulé des séances bébé)** |
 | `pages.bebe.sections.2.text` | Avant l'arrivée du bébé, ou tous ensemble quand il est là : les grands frères, les grandes sœurs et les grands-parents sont les bienvenus. | Before the baby arrives, or all together once they're here: big brothers, big sisters and grandparents are welcome. | **à valider (déroulé des séances bébé)** |
 | `pages.bebe.gallery` | Quelques images de séances | A few pictures from sessions | **à valider (déroulé des séances bébé)** |
-| `pages.bebe.consent` | Les photos de séances sont publiées uniquement avec l'accord des familles. | Session photos are only published with the families' consent. | **à valider (déroulé des séances bébé)** |
+| `pages.bebe.consent` | Photos d'illustration pour l'instant : les photos de séances du studio seront publiées ici avec l'accord des familles. | Illustrative photos for now: the studio's own session photos will be published here with the families' consent. | **à valider (déroulé des séances bébé)** |
 | `pages.bebe.closing` | Les premiers mois ne reviennent pas. Les photos, elles, restent. | The first months don't come back. The photos stay. | **à valider (déroulé des séances bébé)** |
 
 ### legal
@@ -500,14 +517,14 @@ Chaque ligne : clé, français, anglais. Les textes marqués **à valider** dema
 |---|---|---|---|
 | `legal.metaTitle` | Mentions légales | Affinités Photos | Legal notice | Affinités Photos | |
 | `legal.title` | Mentions légales | Legal notice | |
-| `legal.pending` | Informations légales en cours de complétion (raison sociale, SIRET). | Legal details are being completed (company name, SIRET number). | |
+| `legal.pending` | Informations issues des registres publics, à confirmer avec le studio. | Details taken from public registers, to be confirmed with the studio. | |
 | `legal.editor` | Éditeur du site | Publisher | |
-| `legal.editorText` | Affinités Photos, 5 rue de la Hotoie, 80000 Amiens. Téléphone : 03 22 91 60 34. | Affinités Photos, 5 rue de la Hotoie, 80000 Amiens, France. Phone: +33 3 22 91 60 34. | |
+| `legal.editorText` | AFFINITES PHOTOS, société coopérative d'intérêt collectif (SCIC), 5 rue de la Hotoie, 80000 Amiens. Téléphone : 03 22 91 60 34. E-mail : affinites.photos@fcvnet.net. | AFFINITES PHOTOS, a French cooperative company (SCIC), 5 rue de la Hotoie, 80000 Amiens, France. Phone: +33 3 22 91 60 34. Email: affinites.photos@fcvnet.net. | |
 | `legal.host` | Hébergeur | Hosting | |
 | `legal.data` | Données personnelles | Personal data | |
 | `legal.dataText` | Les informations saisies dans le formulaire de réservation (nom, téléphone, e-mail, message) servent uniquement à traiter votre demande. Elles ne sont ni cédées ni utilisées à des fins publicitaires. Vous pouvez demander leur suppression en appelant le studio. Le site n'utilise pas de cookies publicitaires. | The information entered in the booking form (name, phone, email, message) is only used to handle your request. It is never passed on or used for advertising. You can ask for it to be deleted by calling the studio. The site uses no advertising cookies. | |
 | `legal.photos` | Photos | Photos | |
-| `legal.photosText` | Les photos de séances présentées sur ce site sont publiées avec l'accord des personnes photographiées ou de leurs représentants légaux. Toute reproduction est interdite sans autorisation. | Session photos shown on this site are published with the consent of the people photographed or their legal guardians. Reproduction without permission is prohibited. | |
+| `legal.photosText` | La photo de la façade est celle de la fiche publique du commerce. Les autres images sont des photos d'illustration libres de droits (Unsplash), en attendant les photos du studio. Les photos de séances ne seront publiées qu'avec l'accord des personnes photographiées ou de leurs représentants légaux. | The shopfront photo comes from the shop's public listing. The other images are royalty-free illustrative photos (Unsplash), pending the studio's own photos. Session photos will only be published with the consent of the people photographed or their legal guardians. | |
 
 ## Emplacements photo (`data/photos.json`)
 
@@ -515,27 +532,27 @@ Le texte sert de légende tant que la photo manque, puis de texte alternatif une
 
 | Emplacement | Français | English |
 |---|---|---|
-| hero | Le studio Affinités Photos, rue de la Hotoie | The Affinités Photos studio, rue de la Hotoie |
-| tile-identite | Prise d'une photo d'identité au studio | An ID photo being taken at the studio |
-| tile-bebe | Détail d'une séance naissance : petites mains | Detail from a newborn session: tiny hands |
-| tile-famille | Une famille pendant une séance au studio | A family during a studio session |
-| tile-portrait | Portrait réalisé au studio | A portrait taken at the studio |
-| tile-tirages | Tirages photo et agrandissements | Photo prints and enlargements |
-| tile-services | Le comptoir du studio | The studio counter |
-| block-identite | Photos d'identité prêtes à être remises | ID photos ready to hand over |
-| block-seances | Le coin séance bébé du studio | The baby session corner of the studio |
-| block-tirages | Tirages, cadres et idées cadeaux | Prints, frames and gift ideas |
-| bebe-1 | Séance naissance : bébé endormi | Newborn session: sleeping baby |
-| bebe-2 | Séance bébé : petits pieds | Baby session: tiny feet |
-| bebe-3 | Séance bébé : accessoires et décor | Baby session: props and backdrop |
-| famille-1 | Séance famille : mains réunies | Family session: hands together |
-| famille-2 | Séance famille au studio | Family session at the studio |
-| famille-3 | Séance fratrie | Siblings session |
-| portrait-1 | Portrait en studio | Studio portrait |
-| portrait-2 | Portrait professionnel | Professional headshot |
-| portrait-3 | Portrait en noir et blanc | Black-and-white portrait |
-| studio-1 | La façade, 5 rue de la Hotoie | The shopfront, 5 rue de la Hotoie |
-| studio-2 | L'intérieur du studio | Inside the studio |
-| studio-3 | L'équipe d'Affinités Photos | The Affinités Photos team |
-| page-identite | Photos d'identité réalisées au studio | ID photos taken at the studio |
-| page-bebe | Séance bébé au studio | Baby session at the studio |
+| hero | La façade d'Affinités Photos, 5 rue de la Hotoie à Amiens : enseigne rouge et vitrine de portraits | The Affinités Photos shopfront at 5 rue de la Hotoie, Amiens: red sign and a window full of portraits |
+| tile-identite | Appareil photo reflex et son objectif | DSLR camera and its lens |
+| tile-bebe | Petits pieds d'un nouveau-né sur un drap à pois roses | A newborn's tiny feet on a pink-dotted sheet |
+| tile-famille | Mains d'une famille posées les unes sur les autres | A family's hands resting on top of each other |
+| tile-portrait | Éclairage de studio et fauteuil de pose devant un fond blanc | Studio light and posing chair in front of a white backdrop |
+| tile-tirages | Tirages photo étalés sur un drap blanc | Photo prints spread out on a white sheet |
+| tile-services | Bande de pellicule photo argentique | A strip of photographic film |
+| block-identite | La vitrine d'Affinités Photos, rue de la Hotoie | The Affinités Photos shop window, rue de la Hotoie |
+| block-seances | Pieds d'un bébé dans un drap blanc | A baby's feet in a white sheet |
+| block-tirages | Tirages photo en couleur posés sur une table | Colour photo prints laid on a table |
+| bebe-1 | Pieds d'un nouveau-né emmitouflé dans une couverture blanche | A newborn's feet wrapped in a white blanket |
+| bebe-2 | Main d'un bébé posée sur un drap | A baby's hand resting on a sheet |
+| bebe-3 | Pieds d'un bébé dans un drap blanc | A baby's feet in a white sheet |
+| famille-1 | Mains d'une famille posées les unes sur les autres | A family's hands resting on top of each other |
+| famille-2 | Mains de trois générations réunies, en noir et blanc | Three generations' hands together, in black and white |
+| famille-3 | Main d'un bébé dans la paume d'un adulte, en noir et blanc | A baby's hand in an adult's palm, in black and white |
+| portrait-1 | Éclairage de studio et fauteuil de pose devant un fond blanc | Studio light and posing chair in front of a white backdrop |
+| portrait-2 | Appareil photo sur son trépied | Camera on its tripod |
+| portrait-3 | Appareil photo et objectifs vus de dessus | Camera and lenses seen from above |
+| studio-1 | La façade d'Affinités Photos, 5 rue de la Hotoie à Amiens | The Affinités Photos shopfront at 5 rue de la Hotoie, Amiens |
+| studio-2 | Détail de l'enseigne : le petit photographe blanc au-dessus de la vitrine | Sign detail: the little white photographer above the shop window |
+| studio-3 | Coque de téléphone personnalisée avec une photo de paon | Personalised phone case printed with a peacock photo |
+| page-identite | Appareil photo sur son trépied | Camera on its tripod |
+| page-bebe | Main d'un adulte tenant la main d'un nouveau-né | An adult's hand holding a newborn's hand |

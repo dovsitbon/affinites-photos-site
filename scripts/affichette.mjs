@@ -14,7 +14,7 @@ const WHITE = hex("#FFFFFF");
 const PEARL = hex("#EDEBE8");
 const ROSE = hex("#E9C9C1");
 const INK = hex("#222222");
-const GOLD = hex("#7A6130");
+const GOLD = hex("#B3231F");
 const MUTED = hex("#5C5955");
 const LINE = hex("#E0DDD8");
 
@@ -62,6 +62,13 @@ const S = 4.6;
 page.drawCircle({ x: cx, y: cy, size: 10 * S, borderColor: INK, borderWidth: 0.8 });
 page.drawSvgPath(APERTURE, { x: cx, y: cy, scale: S, borderColor: INK, borderWidth: 0.8 });
 
+// La vraie façade par-dessus le bandeau, dès qu'elle existe dans public/media/hero/
+try {
+  const { default: sharp } = await import("sharp");
+  const photo = await sharp(path.join(ROOT, "public/media/hero/facade.jpg")).resize(1260, 588, { fit: "cover", position: "centre" }).jpeg({ quality: 88 }).toBuffer();
+  page.drawImage(await pdf.embedJpg(photo), { x: 0, y: H - topH, width: W, height: topH });
+} catch {}
+
 let y = H - topH - 46;
 center("AFFINITÉS", serif, 30, y, INK, 7);
 y -= 17;
@@ -86,7 +93,7 @@ center(url.replace(/^https?:\/\//, ""), sans, 8.5, y, GOLD);
 y -= 18;
 page.drawLine({ start: { x: 60, y }, end: { x: W - 60, y }, thickness: 0.5, color: LINE });
 y -= 17;
-center("Photos d'identité sans rendez-vous  ·  tirages  ·  agrandissements", sans, 8.5, y);
+center("Photos d'identité  ·  tirages  ·  développement argentique", sans, 8.5, y);
 y -= 13;
 center(`${site.address.street}, ${site.address.postalCode} ${site.address.city}  ·  ${site.phone}`, sans, 8.5, y);
 y -= 13;

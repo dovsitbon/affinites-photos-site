@@ -34,9 +34,9 @@ function Hero({ lang, d }: { lang: Locale; d: Dict }) {
   const h = d.hero;
   return (
     <section aria-labelledby="hero-title" className="relative">
-      <div className="grid lg:min-h-[calc(100svh-8.5rem)] lg:grid-cols-[1fr_1.15fr]">
-        <Frame slot="hero" d={d} big priority sizes="(min-width:1024px) 54vw, 100vw" className="order-1 h-[42svh] min-h-72 lg:order-2 lg:h-auto" />
-        <div className="order-2 flex flex-col justify-center px-5 pt-10 pb-12 sm:px-8 lg:order-1 lg:px-10 lg:pt-16 lg:pb-24 xl:ps-[max(2.5rem,calc((100vw-90rem)/2+2.5rem))]">
+      <div className="grid items-center lg:min-h-[calc(100svh-14rem)] lg:grid-cols-[1fr_1.35fr]">
+        <Frame slot="hero" d={d} big priority sizes="(min-width:1024px) 56vw, 100vw" className="order-1 aspect-[3/2] lg:order-2 lg:me-10 xl:me-[max(2.5rem,calc((100vw-90rem)/2+2.5rem))]" />
+        <div className="order-2 flex flex-col justify-center px-5 pt-10 pb-12 sm:px-8 lg:order-1 lg:px-10 lg:py-14 xl:ps-[max(2.5rem,calc((100vw-90rem)/2+2.5rem))]">
           <p className="eyebrow rise">{h.eyebrow}</p>
           <h1 id="hero-title" className="display rise mt-5 max-w-[12ch] text-[clamp(3rem,6.6vw,5.8rem)] [animation-delay:0.08s]" dangerouslySetInnerHTML={{ __html: h.title }} />
           <p className="lead rise mt-6 max-w-md [animation-delay:0.16s]">{h.lead}</p>
@@ -54,8 +54,8 @@ function Hero({ lang, d }: { lang: Locale; d: Dict }) {
           </div>
         </div>
       </div>
-      <div className={`${WRAP} lg:-mt-10`}>
-        <div className="relative z-10 lg:max-w-[58rem]">
+      <div className={WRAP}>
+        <div className="relative z-10">
           <BookingBar />
         </div>
       </div>
@@ -76,7 +76,7 @@ function Tiles({ lang, d }: { lang: Locale; d: Dict }) {
                 <Frame slot={t.slot} d={d} tone={t.tone} sizes="(min-width:768px) 31vw, 48vw" className="aspect-[4/5] md:aspect-[5/4]" />
                 <h3 className="display mt-4 flex items-center justify-between gap-2 text-[1.5rem] lg:text-[1.75rem]">
                   {it.title}
-                  <ArrowIcon className="size-4 shrink-0 text-gold-ink transition-transform duration-500 group-hover:translate-x-1" />
+                  <ArrowIcon className="size-4 shrink-0 text-red-ink transition-transform duration-500 group-hover:translate-x-1" />
                 </h3>
                 <p className="mt-1.5 text-[0.9375rem] leading-relaxed text-muted">{it.text}</p>
               </Link>
@@ -101,7 +101,7 @@ function Strip({ d }: { d: Dict }) {
           const call = i === 3;
           const body = (
             <>
-              <Icon className="size-9 text-gold-ink" />
+              <Icon className="size-9 text-red-ink" />
               <p className="mt-4 text-[1.0625rem] font-normal">{it.title}</p>
               <p className="mt-1.5 text-[0.9375rem] leading-relaxed text-muted">{it.text}</p>
             </>
@@ -143,7 +143,7 @@ function Prices({ lang, d }: { lang: Locale; d: Dict }) {
                 <caption className="border-b border-ink/80 pb-3 text-start">
                   <span className="flex items-baseline justify-between gap-4">
                     <span className="display text-[1.9rem]">{c.name[lang]}</span>
-                    <Link href={`${href(lang, "rdv")}?t=${c.id}`} className="link-line shrink-0 text-[0.8125rem] text-gold-ink">
+                    <Link href={`${href(lang, "rdv")}?t=${c.id}`} className="link-line shrink-0 text-[0.8125rem] text-red-ink">
                       {p.book}
                     </Link>
                   </span>
@@ -343,7 +343,7 @@ function Tips({ lang, d }: { lang: Locale; d: Dict }) {
       <ol className="mt-12 grid gap-px border border-line bg-line sm:grid-cols-2 lg:grid-cols-4">
         {t.items.map((it, i) => (
           <Reveal as="li" key={it.title} delay={i * 0.06} className="bg-paper p-7 lg:p-8">
-            <span className="display text-[2.4rem] leading-none text-gold-ink">{String(i + 1).padStart(2, "0")}</span>
+            <span className="display text-[2.4rem] leading-none text-red-ink">{String(i + 1).padStart(2, "0")}</span>
             <h3 className="mt-5 text-[1.0625rem] font-normal">{it.title}</h3>
             <p className="mt-3 text-[0.9375rem] leading-relaxed text-muted">{it.text}</p>
           </Reveal>

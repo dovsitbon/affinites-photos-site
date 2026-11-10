@@ -1,9 +1,20 @@
 {
   "meta": {
     "title": "Photographer and ID photos in Amiens | Affinités Photos",
-    "description": "Photo studio at 5 rue de la Hotoie, Amiens: ID photos to official French (ANTS) standards, baby, newborn, family and portrait sessions, prints and enlargements. Rated 4.7/5 on Google.",
+    "description": "Photo studio at 5 rue de la Hotoie, Amiens: ANTS-compliant ID photos, baby, family and portrait sessions, prints and film developing. Rated 4.7/5 on Google.",
     "ogAlt": "Affinités Photos, photo studio on rue de la Hotoie in Amiens",
-    "topics": ["ID photos", "ANTS e-photo", "newborn photography", "baby photography", "family portraits", "studio portraits", "photo printing", "photo enlargements"]
+    "topics": [
+      "ID photos",
+      "ANTS e-photo",
+      "newborn photography",
+      "baby photography",
+      "family portraits",
+      "studio portraits",
+      "photo printing",
+      "photo enlargements",
+      "film developing",
+      "canvas prints"
+    ]
   },
   "nav": {
     "identite": "ID photos",
@@ -19,9 +30,15 @@
     "skip": "Skip to content",
     "lang": "Language"
   },
-  "announce": { "close": "Close banner" },
-  "intro": { "skip": "Skip" },
-  "frame": { "soon": "Photo coming soon" },
+  "announce": {
+    "close": "Close banner"
+  },
+  "intro": {
+    "skip": "Skip"
+  },
+  "frame": {
+    "soon": "Photo coming soon"
+  },
   "hero": {
     "eyebrow": "Photo studio · rue de la Hotoie, Amiens",
     "title": "The neighbourhood <em>photo studio</em>",
@@ -42,7 +59,15 @@
     "today": "today",
     "tomorrow": "tomorrow"
   },
-  "days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+  "days": [
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday"
+  ],
   "bar": {
     "label": "Request a session",
     "type": "Session type",
@@ -57,21 +82,51 @@
     "eyebrow": "What we do",
     "title": "From ID photos to family portraits",
     "items": {
-      "identite": { "title": "ID photos", "text": "Compliant for your documents, ready in a few minutes." },
-      "bebe": { "title": "Baby and newborn", "text": "Calm sessions, at your child's pace." },
-      "famille": { "title": "Family", "text": "Parents, children, grandparents: everyone in the picture." },
-      "portrait": { "title": "Portrait", "text": "For yourself, for a CV, or as a gift." },
-      "tirages": { "title": "Prints and enlargements", "text": "Your phone pictures on real photo paper." },
-      "services": { "title": "Services", "text": "Parcel drop-off and collection, and other everyday services." }
+      "identite": {
+        "title": "ID photos",
+        "text": "Compliant for your documents, ready in a few minutes."
+      },
+      "bebe": {
+        "title": "Baby and newborn",
+        "text": "Calm sessions, at your child's pace."
+      },
+      "famille": {
+        "title": "Family",
+        "text": "Parents, children, grandparents: everyone in the picture."
+      },
+      "portrait": {
+        "title": "Portrait",
+        "text": "For yourself, for a CV, or as a gift."
+      },
+      "tirages": {
+        "title": "Prints and enlargements",
+        "text": "Digital or film, small, enlarged or on canvas."
+      },
+      "services": {
+        "title": "Film and photo gifts",
+        "text": "Developing on site, phone cases, mugs and personalised gifts."
+      }
     }
   },
   "strip": {
     "title": "The essentials",
     "items": [
-      { "title": "ANTS-compliant ID photos", "text": "Size, background and framing checked before we hand them over." },
-      { "title": "With or without booking", "text": "ID photos are walk-in; sessions are booked ahead." },
-      { "title": "Quick prints", "text": "From your phone, a USB stick or a memory card." },
-      { "title": "03 22 91 60 34", "text": "Got a question? Calling the studio is the quickest way." }
+      {
+        "title": "ANTS-compliant ID photos",
+        "text": "Size, background and framing checked before we hand them over."
+      },
+      {
+        "title": "With or without booking",
+        "text": "ID photos are walk-in; sessions are booked ahead."
+      },
+      {
+        "title": "Prints and film",
+        "text": "From your phone or your film rolls, developed on site."
+      },
+      {
+        "title": "03 22 91 60 34",
+        "text": "Got a question? Calling the studio is the quickest way."
+      }
     ]
   },
   "prices": {
@@ -81,7 +136,11 @@
     "note": "Prices are being updated: for an exact price, please call the studio.",
     "from": "from {price}",
     "onRequest": "price at the studio",
-    "cols": { "service": "Service", "price": "Price", "delay": "Turnaround" },
+    "cols": {
+      "service": "Service",
+      "price": "Price",
+      "delay": "Turnaround"
+    },
     "delayNone": "confirmed when you order",
     "book": "Book"
   },
@@ -89,7 +148,12 @@
     "eyebrow": "Sessions",
     "title": "Three sessions, side by side",
     "lead": "To help you choose. We settle the details together, by phone or at the studio, before the day of the session.",
-    "rows": { "who": "Who it's for", "when": "The right moment", "how": "How it goes", "price": "Price" },
+    "rows": {
+      "who": "Who it's for",
+      "when": "The right moment",
+      "how": "How it goes",
+      "price": "Price"
+    },
     "offers": [
       {
         "id": "bebe",
@@ -117,9 +181,14 @@
   },
   "gallery": {
     "eyebrow": "Gallery",
-    "title": "A few pictures from the studio",
-    "lead": "Session photos are only published with the families' consent.",
-    "tabs": { "bebe": "Baby and newborn", "famille": "Family", "portrait": "Portrait", "studio": "The studio" },
+    "title": "A few pictures",
+    "lead": "Illustrative photos for now: the studio's own session photos will be published here with the families' consent.",
+    "tabs": {
+      "bebe": "Baby and newborn",
+      "famille": "Family",
+      "portrait": "Portrait",
+      "studio": "The shop"
+    },
     "tablist": "Session type"
   },
   "blocks": {
@@ -138,14 +207,20 @@
     "tirages": {
       "eyebrow": "Prints and gifts",
       "title": "Your photos deserve more than a screen",
-      "text": "Bring your phone, a USB stick or a memory card: we print your photos on paper, small or enlarged, with frames and gift ideas to go with them.",
+      "text": "Bring your phone, a USB stick or your film rolls: we develop and print your photos on site, small, enlarged or on canvas, with frames, photo books and personalised items to give as gifts.",
       "cta": "See prices"
     }
   },
   "reviews": {
     "eyebrow": "Google reviews",
     "title": "What our customers remember",
-    "themes": ["ID photos", "Fair prices", "A warm welcome", "Baby photos", "The parcel service"],
+    "themes": [
+      "ID photos",
+      "Fair prices",
+      "A warm welcome",
+      "Baby photos",
+      "The parcel service"
+    ],
     "cta": "Read the reviews on Google"
   },
   "tips": {
@@ -153,10 +228,22 @@
     "title": "Before your ID photo",
     "lead": "Four things to know so the photo is accepted, and so you like how you look in it.",
     "items": [
-      { "title": "Keep your face clear", "text": "Head uncovered, forehead and eyes fully visible. Tuck back or tie up any hair that falls across your face." },
-      { "title": "A neutral expression", "text": "Mouth closed, looking straight at the lens. It's not the moment for a big smile, but you can still look relaxed." },
-      { "title": "Glasses: better without", "text": "They're allowed if there are no reflections or tinted lenses. The safest option is to take them off for the photo." },
-      { "title": "A recent photo", "text": "It must be less than six months old and look like you. An old photo can get the application rejected." }
+      {
+        "title": "Keep your face clear",
+        "text": "Head uncovered, forehead and eyes fully visible. Tuck back or tie up any hair that falls across your face."
+      },
+      {
+        "title": "A neutral expression",
+        "text": "Mouth closed, looking straight at the lens. It's not the moment for a big smile, but you can still look relaxed."
+      },
+      {
+        "title": "Glasses: better without",
+        "text": "They're allowed if there are no reflections or tinted lenses. The safest option is to take them off for the photo."
+      },
+      {
+        "title": "A recent photo",
+        "text": "It must be less than six months old and look like you. An old photo can get the application rejected."
+      }
     ]
   },
   "infos": {
@@ -176,16 +263,34 @@
     "eyebrow": "Frequently asked questions",
     "title": "Before you come",
     "items": [
-      { "q": "Do I need an appointment for an ID photo?", "a": "No. ID photos are walk-in during the studio's opening hours: Tuesday to Friday 9:30am to 7pm, Saturday 9:30am to 6pm. Baby, family and portrait sessions are booked ahead." },
-      { "q": "Are your ID photos accepted for a French passport or identity card?", "a": "Yes. Photos are taken to the official French standards (35 × 45 mm, plain light background, face-on, neutral expression) and checked before we hand them over. For an online driving-licence application, ask for an e-photo with a code and digital signature." },
-      { "q": "What are the studio's opening hours?", "a": "Affinités Photos is open Tuesday to Friday from 9:30am to 7pm and Saturday from 9:30am to 6pm. The studio is closed on Sunday and Monday." },
-      { "q": "How quickly will I get my photos?", "a": "An ID photo is ready on the spot, in a few minutes. For prints, enlargements and session photos, we tell you the turnaround when you order." },
-      { "q": "Which payment methods do you accept?", "a": "Payment is made at the studio. If you're unsure about a payment method, call us on 03 22 91 60 34 before you come." },
-      { "q": "Where is the studio and where can I park?", "a": "At 5 rue de la Hotoie, 80000 Amiens, a few minutes' walk from the city centre. You can park on the street and in neighbouring streets." }
+      {
+        "q": "Do I need an appointment for an ID photo?",
+        "a": "No. ID photos are walk-in during the studio's opening hours: Tuesday to Friday 9:30am to 7pm, Saturday 9:30am to 6pm. Baby, family and portrait sessions are booked ahead."
+      },
+      {
+        "q": "Are your ID photos accepted for a French passport or identity card?",
+        "a": "Yes. Photos are taken to the official French standards (35 × 45 mm, plain light background, face-on, neutral expression) and checked before we hand them over. For an online driving-licence application, ask for an e-photo with a code and digital signature."
+      },
+      {
+        "q": "What are the studio's opening hours?",
+        "a": "Affinités Photos is open Tuesday to Friday from 9:30am to 7pm and Saturday from 9:30am to 6pm. The studio is closed on Sunday and Monday."
+      },
+      {
+        "q": "How quickly will I get my photos?",
+        "a": "An ID photo is ready on the spot, in a few minutes. For prints, enlargements and session photos, we tell you the turnaround when you order."
+      },
+      {
+        "q": "Which payment methods do you accept?",
+        "a": "Payment is made at the studio. If you're unsure about a payment method, call us on 03 22 91 60 34 before you come."
+      },
+      {
+        "q": "Where is the studio and where can I park?",
+        "a": "At 5 rue de la Hotoie, 80000 Amiens, a few minutes' walk from the city centre. You can park on the street and in neighbouring streets."
+      }
     ]
   },
   "footer": {
-    "tagline": "Photo studio in Amiens: ID photos, baby, family and portrait sessions, prints.",
+    "tagline": "Photo studio in Amiens: ID photos, baby, family and portrait sessions, prints and film developing.",
     "contact": "Contact",
     "pages": "The site",
     "days": "Tuesday – Friday: 9:30am – 7pm\nSaturday: 9:30am – 6pm",
@@ -199,7 +304,11 @@
     "lead": "Tell us what you'd like and when you're free. The studio calls you back to confirm the day and time: nothing is booked until we've spoken on the phone.",
     "preferCall": "Rather call?",
     "walkIn": "For an ID photo there's no need to book: just come in during opening hours.",
-    "sections": { "type": "Your request", "when": "When?", "contact": "Your details" },
+    "sections": {
+      "type": "Your request",
+      "when": "When?",
+      "contact": "Your details"
+    },
     "fields": {
       "type": "Session type",
       "types": {
@@ -214,7 +323,12 @@
       "date": "Preferred date",
       "dateHint": "(optional)",
       "slot": "Preferred time of day",
-      "slotList": { "matin": "Morning (9:30am – 12pm)", "midi": "Lunchtime (12pm – 2pm)", "apres-midi": "Afternoon (2pm – 5pm)", "fin": "Late afternoon (after 5pm)" },
+      "slotList": {
+        "matin": "Morning (9:30am – 12pm)",
+        "midi": "Lunchtime (12pm – 2pm)",
+        "apres-midi": "Afternoon (2pm – 5pm)",
+        "fin": "Late afternoon (after 5pm)"
+      },
       "name": "Full name",
       "phone": "Phone",
       "email": "Email",
@@ -266,25 +380,61 @@
       "intro": "Affinités Photos takes your ID photos at 5 rue de la Hotoie, with no appointment, Tuesday to Saturday. Every photo is framed and checked against the official standards before we hand it over: you leave with it a few minutes later.",
       "cta": "Walk in, no booking",
       "sections": [
-        { "title": "For which documents?", "text": "French identity card, passport, driving licence, residence permit, health card, travel pass, and the formats other countries require for a visa or a foreign passport." },
-        { "title": "The e-photo for driving licences", "text": "To apply for a French driving licence online on the ANTS website, you need a digital photo with a code and your signature. Ask for an e-photo: the code is valid for six months." },
-        { "title": "Babies and children", "text": "The rules are a little more relaxed for the very young, but the photo is still tricky to get right. We take our time and try again as often as needed." }
+        {
+          "title": "For which documents?",
+          "text": "French identity card, passport, driving licence, residence permit, health card, travel pass, and the formats other countries require for a visa or a foreign passport."
+        },
+        {
+          "title": "The e-photo for driving licences",
+          "text": "To apply for a French driving licence online on the ANTS website, you need a digital photo with a code and your signature. Ask for an e-photo: the code is valid for six months."
+        },
+        {
+          "title": "Babies and children",
+          "text": "The rules are a little more relaxed for the very young, but the photo is still tricky to get right. We take our time and try again as often as needed."
+        }
       ],
       "rulesTitle": "What the French administration requires",
       "rulesLead": "The official rules for a French ID photo, in short.",
       "rules": [
-        { "k": "Size", "v": "35 mm wide by 45 mm high" },
-        { "k": "Face", "v": "Face-on, 32 to 36 mm from chin to crown" },
-        { "k": "Background", "v": "Plain and light (light grey or blue), never white" },
-        { "k": "Expression", "v": "Neutral, mouth closed, eyes open" },
-        { "k": "Head", "v": "Uncovered: no hat, scarf or headband" },
-        { "k": "Age of photo", "v": "Less than six months" }
+        {
+          "k": "Size",
+          "v": "35 mm wide by 45 mm high"
+        },
+        {
+          "k": "Face",
+          "v": "Face-on, 32 to 36 mm from chin to crown"
+        },
+        {
+          "k": "Background",
+          "v": "Plain and light (light grey or blue), never white"
+        },
+        {
+          "k": "Expression",
+          "v": "Neutral, mouth closed, eyes open"
+        },
+        {
+          "k": "Head",
+          "v": "Uncovered: no hat, scarf or headband"
+        },
+        {
+          "k": "Age of photo",
+          "v": "Less than six months"
+        }
       ],
       "howTitle": "How it works",
       "how": [
-        { "title": "Come when it suits you", "text": "No appointment, during opening hours. Tell us which document the photo is for." },
-        { "title": "We take the photo", "text": "A few tries if needed, until the photo is compliant, and you're happy with it." },
-        { "title": "You leave with it", "text": "Your printed photos, or your e-photo with its code, in a few minutes." }
+        {
+          "title": "Come when it suits you",
+          "text": "No appointment, during opening hours. Tell us which document the photo is for."
+        },
+        {
+          "title": "We take the photo",
+          "text": "A few tries if needed, until the photo is compliant, and you're happy with it."
+        },
+        {
+          "title": "You leave with it",
+          "text": "Your printed photos, or your e-photo with its code, in a few minutes."
+        }
       ],
       "related": "ID photo prices are listed in",
       "tips": "Our advice before the photo"
@@ -299,57 +449,75 @@
       "process": {
         "title": "How a session goes",
         "steps": [
-          { "title": "We talk beforehand", "text": "By phone or at the studio: the baby's age, what you have in mind, who will be in the photos. We set the day and time together." },
-          { "title": "On the day", "text": "You arrive with no pressure. We stop for a bottle, a feed or a cuddle as often as needed." },
-          { "title": "You choose your images", "text": "We show you the photos and you choose the ones you keep, as prints or enlargements." }
+          {
+            "title": "We talk beforehand",
+            "text": "By phone or at the studio: the baby's age, what you have in mind, who will be in the photos. We set the day and time together."
+          },
+          {
+            "title": "On the day",
+            "text": "You arrive with no pressure. We stop for a bottle, a feed or a cuddle as often as needed."
+          },
+          {
+            "title": "You choose your images",
+            "text": "We show you the photos and you choose the ones you keep, as prints or enlargements."
+          }
         ]
       },
       "sections": [
-        { "title": "Newborn", "text": "The first few weeks are the best time: babies sleep a lot and can be settled gently. Book before the birth if you can; we adjust the date afterwards." },
-        { "title": "The first months", "text": "The first smile, sitting up, the first birthday: each stage suits a session, alone or with the family." },
-        { "title": "Maternity and family", "text": "Before the baby arrives, or all together once they're here: big brothers, big sisters and grandparents are welcome." }
+        {
+          "title": "Newborn",
+          "text": "The first few weeks are the best time: babies sleep a lot and can be settled gently. Book before the birth if you can; we adjust the date afterwards."
+        },
+        {
+          "title": "The first months",
+          "text": "The first smile, sitting up, the first birthday: each stage suits a session, alone or with the family."
+        },
+        {
+          "title": "Maternity and family",
+          "text": "Before the baby arrives, or all together once they're here: big brothers, big sisters and grandparents are welcome."
+        }
       ],
       "gallery": "A few pictures from sessions",
-      "consent": "Session photos are only published with the families' consent.",
+      "consent": "Illustrative photos for now: the studio's own session photos will be published here with the families' consent.",
       "closing": "The first months don't come back. The photos stay."
     }
   },
   "legal": {
     "metaTitle": "Legal notice | Affinités Photos",
     "title": "Legal notice",
-    "pending": "Legal details are being completed (company name, SIRET number).",
+    "pending": "Details taken from public registers, to be confirmed with the studio.",
     "editor": "Publisher",
-    "editorText": "Affinités Photos, 5 rue de la Hotoie, 80000 Amiens, France. Phone: +33 3 22 91 60 34.",
+    "editorText": "AFFINITES PHOTOS, a French cooperative company (SCIC), 5 rue de la Hotoie, 80000 Amiens, France. Phone: +33 3 22 91 60 34. Email: affinites.photos@fcvnet.net.",
     "host": "Hosting",
     "data": "Personal data",
     "dataText": "The information entered in the booking form (name, phone, email, message) is only used to handle your request. It is never passed on or used for advertising. You can ask for it to be deleted by calling the studio. The site uses no advertising cookies.",
     "photos": "Photos",
-    "photosText": "Session photos shown on this site are published with the consent of the people photographed or their legal guardians. Reproduction without permission is prohibited."
+    "photosText": "The shopfront photo comes from the shop's public listing. The other images are royalty-free illustrative photos (Unsplash), pending the studio's own photos. Session photos will only be published with the consent of the people photographed or their legal guardians."
   },
   "slots": {
-    "hero": "The Affinités Photos studio, rue de la Hotoie",
-    "tile-identite": "An ID photo being taken at the studio",
-    "tile-bebe": "Detail from a newborn session: tiny hands",
-    "tile-famille": "A family during a studio session",
-    "tile-portrait": "A portrait taken at the studio",
-    "tile-tirages": "Photo prints and enlargements",
-    "tile-services": "The studio counter",
-    "block-identite": "ID photos ready to hand over",
-    "block-seances": "The baby session corner of the studio",
-    "block-tirages": "Prints, frames and gift ideas",
-    "bebe-1": "Newborn session: sleeping baby",
-    "bebe-2": "Baby session: tiny feet",
-    "bebe-3": "Baby session: props and backdrop",
-    "famille-1": "Family session: hands together",
-    "famille-2": "Family session at the studio",
-    "famille-3": "Siblings session",
-    "portrait-1": "Studio portrait",
-    "portrait-2": "Professional headshot",
-    "portrait-3": "Black-and-white portrait",
-    "studio-1": "The shopfront, 5 rue de la Hotoie",
-    "studio-2": "Inside the studio",
-    "studio-3": "The Affinités Photos team",
-    "page-identite": "ID photos taken at the studio",
-    "page-bebe": "Baby session at the studio"
+    "hero": "The Affinités Photos shopfront at 5 rue de la Hotoie, Amiens: red sign and a window full of portraits",
+    "tile-identite": "DSLR camera and its lens",
+    "tile-bebe": "A newborn's tiny feet on a pink-dotted sheet",
+    "tile-famille": "A family's hands resting on top of each other",
+    "tile-portrait": "Studio light and posing chair in front of a white backdrop",
+    "tile-tirages": "Photo prints spread out on a white sheet",
+    "tile-services": "A strip of photographic film",
+    "block-identite": "The Affinités Photos shop window, rue de la Hotoie",
+    "block-seances": "A baby's feet in a white sheet",
+    "block-tirages": "Colour photo prints laid on a table",
+    "bebe-1": "A newborn's feet wrapped in a white blanket",
+    "bebe-2": "A baby's hand resting on a sheet",
+    "bebe-3": "A baby's feet in a white sheet",
+    "famille-1": "A family's hands resting on top of each other",
+    "famille-2": "Three generations' hands together, in black and white",
+    "famille-3": "A baby's hand in an adult's palm, in black and white",
+    "portrait-1": "Studio light and posing chair in front of a white backdrop",
+    "portrait-2": "Camera on its tripod",
+    "portrait-3": "Camera and lenses seen from above",
+    "studio-1": "The Affinités Photos shopfront at 5 rue de la Hotoie, Amiens",
+    "studio-2": "Sign detail: the little white photographer above the shop window",
+    "studio-3": "Personalised phone case printed with a peacock photo",
+    "page-identite": "Camera on its tripod",
+    "page-bebe": "An adult's hand holding a newborn's hand"
   }
 }

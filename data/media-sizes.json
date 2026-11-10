@@ -1,1 +1,78 @@
-{}
+{
+ "/media/hero/facade.jpg": [
+  2000,
+  1334
+ ],
+ "/media/identite/appareil-photo.jpg": [
+  1400,
+  933
+ ],
+ "/media/bebe-famille/main-bebe-drap.jpg": [
+  933,
+  1400
+ ],
+ "/media/bebe-famille/main-bebe-paume.jpg": [
+  1400,
+  933
+ ],
+ "/media/bebe-famille/main-parent-bebe.jpg": [
+  933,
+  1400
+ ],
+ "/media/bebe-famille/mains-famille-nb.jpg": [
+  1077,
+  1400
+ ],
+ "/media/bebe-famille/mains-famille.jpg": [
+  1400,
+  933
+ ],
+ "/media/bebe-famille/pieds-bebe-couverture.jpg": [
+  1400,
+  933
+ ],
+ "/media/bebe-famille/pieds-bebe-drap-blanc.jpg": [
+  1400,
+  933
+ ],
+ "/media/bebe-famille/pieds-bebe-rose.jpg": [
+  1400,
+  935
+ ],
+ "/media/portraits/appareil-objectifs.jpg": [
+  1120,
+  1400
+ ],
+ "/media/portraits/appareil-trepied.jpg": [
+  1400,
+  932
+ ],
+ "/media/portraits/studio-softbox.jpg": [
+  1050,
+  1400
+ ],
+ "/media/studio/coque-personnalisee.jpg": [
+  739,
+  960
+ ],
+ "/media/studio/pellicule.jpg": [
+  1400,
+  933
+ ],
+ "/media/studio/tirages-papier.jpg": [
+  1400,
+  933
+ ],
+ "/media/studio/tirages-photo.jpg": [
+  1400,
+  933
+ ],
+ "/media/facade/enseigne-detail.jpg": [
+  620,
+  760
+ ],
+ "/media/facade/facade-rue-de-la-hotoie.jpg": [
+  1400,
+  934
+ ]
+}

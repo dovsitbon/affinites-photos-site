@@ -3,46 +3,230 @@
   "categories": [
     {
       "id": "identite",
-      "name": { "fr": "Photo d'identité", "en": "ID photos" },
+      "name": {
+        "fr": "Photo d'identité",
+        "en": "ID photos"
+      },
       "items": [
-        { "id": "identite-planche", "name": { "fr": "Photos d'identité aux normes (carte d'identité, passeport, titre de séjour)", "en": "Compliant ID photos (identity card, passport, residence permit)" }, "price": null, "delay": { "fr": "sur place, en quelques minutes", "en": "on the spot, in a few minutes" } },
-        { "id": "identite-ephoto", "name": { "fr": "e-photo ANTS avec code et signature numérique (permis de conduire)", "en": "ANTS e-photo with code and digital signature (driving licence)" }, "price": null, "delay": { "fr": "sur place, en quelques minutes", "en": "on the spot, in a few minutes" } },
-        { "id": "identite-etranger", "name": { "fr": "Formats étrangers (visa, passeport d'un autre pays)", "en": "Foreign formats (visas, other countries' passports)" }, "price": null, "delay": { "fr": "sur place", "en": "on the spot" } },
-        { "id": "identite-bebe", "name": { "fr": "Photo d'identité bébé et enfant", "en": "Baby and child ID photo" }, "price": null, "delay": { "fr": "sur place", "en": "on the spot" } }
+        {
+          "id": "identite-planche",
+          "name": {
+            "fr": "Photos d'identité aux normes (carte d'identité, passeport, titre de séjour)",
+            "en": "Compliant ID photos (identity card, passport, residence permit)"
+          },
+          "price": null,
+          "delay": {
+            "fr": "sur place, en quelques minutes",
+            "en": "on the spot, in a few minutes"
+          }
+        },
+        {
+          "id": "identite-ephoto",
+          "name": {
+            "fr": "e-photo ANTS avec code et signature numérique (permis de conduire)",
+            "en": "ANTS e-photo with code and digital signature (driving licence)"
+          },
+          "price": null,
+          "delay": {
+            "fr": "sur place, en quelques minutes",
+            "en": "on the spot, in a few minutes"
+          }
+        },
+        {
+          "id": "identite-etranger",
+          "name": {
+            "fr": "Formats étrangers (visa, passeport d'un autre pays)",
+            "en": "Foreign formats (visas, other countries' passports)"
+          },
+          "price": null,
+          "delay": {
+            "fr": "sur place",
+            "en": "on the spot"
+          }
+        },
+        {
+          "id": "identite-bebe",
+          "name": {
+            "fr": "Photo d'identité bébé et enfant",
+            "en": "Baby and child ID photo"
+          },
+          "price": null,
+          "delay": {
+            "fr": "sur place",
+            "en": "on the spot"
+          }
+        }
       ]
     },
     {
       "id": "bebe",
-      "name": { "fr": "Bébé & naissance", "en": "Baby & newborn" },
+      "name": {
+        "fr": "Bébé & naissance",
+        "en": "Baby & newborn"
+      },
       "items": [
-        { "id": "seance-naissance", "name": { "fr": "Séance naissance au studio", "en": "Newborn session at the studio" }, "price": null, "delay": null },
-        { "id": "seance-bebe", "name": { "fr": "Séance bébé (premiers mois, premier anniversaire)", "en": "Baby session (first months, first birthday)" }, "price": null, "delay": null },
-        { "id": "seance-grossesse", "name": { "fr": "Séance grossesse", "en": "Maternity session" }, "price": null, "delay": null }
+        {
+          "id": "seance-naissance",
+          "name": {
+            "fr": "Séance naissance au studio",
+            "en": "Newborn session at the studio"
+          },
+          "price": null,
+          "delay": null
+        },
+        {
+          "id": "seance-bebe",
+          "name": {
+            "fr": "Séance bébé (premiers mois, premier anniversaire)",
+            "en": "Baby session (first months, first birthday)"
+          },
+          "price": null,
+          "delay": null
+        },
+        {
+          "id": "seance-grossesse",
+          "name": {
+            "fr": "Séance grossesse",
+            "en": "Maternity session"
+          },
+          "price": null,
+          "delay": null
+        }
       ]
     },
     {
       "id": "famille",
-      "name": { "fr": "Famille", "en": "Family" },
+      "name": {
+        "fr": "Famille",
+        "en": "Family"
+      },
       "items": [
-        { "id": "seance-famille", "name": { "fr": "Séance famille au studio", "en": "Family session at the studio" }, "price": null, "delay": null },
-        { "id": "seance-fratrie", "name": { "fr": "Séance enfants, frères et sœurs", "en": "Children and siblings session" }, "price": null, "delay": null }
+        {
+          "id": "seance-famille",
+          "name": {
+            "fr": "Séance famille au studio",
+            "en": "Family session at the studio"
+          },
+          "price": null,
+          "delay": null
+        },
+        {
+          "id": "seance-fratrie",
+          "name": {
+            "fr": "Séance enfants, frères et sœurs",
+            "en": "Children and siblings session"
+          },
+          "price": null,
+          "delay": null
+        }
       ]
     },
     {
       "id": "portrait",
-      "name": { "fr": "Portrait", "en": "Portrait" },
+      "name": {
+        "fr": "Portrait",
+        "en": "Portrait"
+      },
       "items": [
-        { "id": "portrait-studio", "name": { "fr": "Portrait au studio", "en": "Studio portrait" }, "price": null, "delay": null },
-        { "id": "portrait-pro", "name": { "fr": "Portrait professionnel (CV, LinkedIn, site)", "en": "Professional headshot (CV, LinkedIn, website)" }, "price": null, "delay": null }
+        {
+          "id": "portrait-studio",
+          "name": {
+            "fr": "Portrait au studio",
+            "en": "Studio portrait"
+          },
+          "price": null,
+          "delay": null
+        },
+        {
+          "id": "portrait-pro",
+          "name": {
+            "fr": "Portrait professionnel (CV, LinkedIn, site)",
+            "en": "Professional headshot (CV, LinkedIn, website)"
+          },
+          "price": null,
+          "delay": null
+        },
+        {
+          "id": "reportage",
+          "name": {
+            "fr": "Reportage",
+            "en": "Event photography"
+          },
+          "price": null,
+          "delay": null
+        }
       ]
     },
     {
       "id": "tirages",
-      "name": { "fr": "Tirages & agrandissements", "en": "Prints & enlargements" },
+      "name": {
+        "fr": "Tirages & agrandissements",
+        "en": "Prints & enlargements"
+      },
       "items": [
-        { "id": "tirage-10x15", "name": { "fr": "Tirage photo 10 × 15 depuis téléphone, clé USB ou carte", "en": "10 × 15 cm print from phone, USB stick or card" }, "price": null, "delay": null },
-        { "id": "agrandissement", "name": { "fr": "Agrandissement", "en": "Enlargement" }, "price": null, "delay": null },
-        { "id": "encadrement", "name": { "fr": "Cadres et idées cadeaux photo", "en": "Frames and photo gift ideas" }, "price": null, "delay": null }
+        {
+          "id": "tirage-numerique",
+          "name": {
+            "fr": "Tirage numérique depuis téléphone, clé USB ou carte",
+            "en": "Digital prints from phone, USB stick or card"
+          },
+          "price": null,
+          "delay": null
+        },
+        {
+          "id": "developpement-argentique",
+          "name": {
+            "fr": "Développement argentique sur place",
+            "en": "Film developing on site"
+          },
+          "price": null,
+          "delay": null
+        },
+        {
+          "id": "agrandissement",
+          "name": {
+            "fr": "Agrandissement",
+            "en": "Enlargement"
+          },
+          "price": null,
+          "delay": null
+        },
+        {
+          "id": "photo-toile",
+          "name": {
+            "fr": "Photo sur toile d'après vos photos",
+            "en": "Canvas print from your photos"
+          },
+          "price": null,
+          "delay": null
+        },
+        {
+          "id": "livre-album",
+          "name": {
+            "fr": "Livre album",
+            "en": "Photo book"
+          },
+          "price": null,
+          "delay": null
+        },
+        {
+          "id": "cadres-albums",
+          "name": {
+            "fr": "Cadres et albums",
+            "en": "Frames and albums"
+          },
+          "price": null,
+          "delay": null
+        },
+        {
+          "id": "objets-personnalises",
+          "name": {
+            "fr": "Objets personnalisés (coques de téléphone, mugs, jouets)",
+            "en": "Personalised items (phone cases, mugs, toys)"
+          },
+          "price": null,
+          "delay": null
+        }
       ]
     }
   ]
