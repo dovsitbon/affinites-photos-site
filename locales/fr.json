@@ -103,8 +103,8 @@
         "text": "Numérique ou argentique, en petit format, en grand ou sur toile."
       },
       "services": {
-        "title": "Argentique et objets photo",
-        "text": "Développement sur place, coques, mugs et cadeaux personnalisés."
+        "title": "Objets photo et argentique",
+        "text": "Gravure sur cristal, coques, bijoux, livres albums, et développement sur place."
       }
     }
   },
@@ -182,11 +182,12 @@
   "gallery": {
     "eyebrow": "Galerie",
     "title": "Quelques images",
-    "lead": "Photos d'illustration pour l'instant : les photos de séances du studio seront publiées ici avec l'accord des familles.",
+    "lead": "Les onglets « Objets photo » et « Le magasin » montrent le studio et ses réalisations. Les images de séances sont des photos d'illustration : celles du studio seront publiées avec l'accord des familles.",
     "tabs": {
       "bebe": "Bébé et naissance",
       "famille": "Famille",
-      "portrait": "Portrait",
+      "portrait": "Portrait et reportage",
+      "objets": "Objets photo",
       "studio": "Le magasin"
     },
     "tablist": "Type de séance"
@@ -492,7 +493,7 @@
     "data": "Données personnelles",
     "dataText": "Les informations saisies dans le formulaire de réservation (nom, téléphone, e-mail, message) servent uniquement à traiter votre demande. Elles ne sont ni cédées ni utilisées à des fins publicitaires. Vous pouvez demander leur suppression en appelant le studio. Le site n'utilise pas de cookies publicitaires.",
     "photos": "Photos",
-    "photosText": "La photo de la façade est celle de la fiche publique du commerce. Les autres images sont des photos d'illustration libres de droits (Unsplash), en attendant les photos du studio. Les photos de séances ne seront publiées qu'avec l'accord des personnes photographiées ou de leurs représentants légaux."
+    "photosText": "La photo de la façade vient de la fiche publique du commerce ; les photos du chalet, des livres albums et des objets gravés viennent de la page Facebook du studio. Les autres images sont des photos d'illustration libres de droits (Unsplash), en attendant les photos de séances du studio, qui ne seront publiées qu'avec l'accord des personnes photographiées ou de leurs représentants légaux."
   },
   "slots": {
     "hero": "La façade d'Affinités Photos, 5 rue de la Hotoie à Amiens : enseigne rouge et vitrine de portraits",
@@ -501,10 +502,10 @@
     "tile-famille": "Mains d'une famille posées les unes sur les autres",
     "tile-portrait": "Éclairage de studio et fauteuil de pose devant un fond blanc",
     "tile-tirages": "Tirages photo étalés sur un drap blanc",
-    "tile-services": "Bande de pellicule photo argentique",
+    "tile-services": "Blocs de cristal gravés d'après des photos, réalisés par Affinités Photos",
     "block-identite": "La vitrine d'Affinités Photos, rue de la Hotoie",
     "block-seances": "Pieds d'un bébé dans un drap blanc",
-    "block-tirages": "Tirages photo en couleur posés sur une table",
+    "block-tirages": "Livres albums de mariage réalisés par Affinités Photos",
     "bebe-1": "Pieds d'un nouveau-né emmitouflé dans une couverture blanche",
     "bebe-2": "Main d'un bébé posée sur un drap",
     "bebe-3": "Pieds d'un bébé dans un drap blanc",
@@ -513,11 +514,14 @@
     "famille-3": "Main d'un bébé dans la paume d'un adulte, en noir et blanc",
     "portrait-1": "Éclairage de studio et fauteuil de pose devant un fond blanc",
     "portrait-2": "Appareil photo sur son trépied",
-    "portrait-3": "Appareil photo et objectifs vus de dessus",
+    "portrait-3": "Table fleurie photographiée lors d'un reportage d'Affinités Photos",
     "studio-1": "La façade d'Affinités Photos, 5 rue de la Hotoie à Amiens",
-    "studio-2": "Détail de l'enseigne : le petit photographe blanc au-dessus de la vitrine",
-    "studio-3": "Coque de téléphone personnalisée avec une photo de paon",
+    "studio-2": "Le chalet d'Affinités Photos au marché de Noël d'Amiens",
+    "studio-3": "Détail de l'enseigne : le petit photographe blanc au-dessus de la vitrine",
     "page-identite": "Appareil photo sur son trépied",
-    "page-bebe": "Main d'un adulte tenant la main d'un nouveau-né"
+    "page-bebe": "Main d'un adulte tenant la main d'un nouveau-né",
+    "objets-1": "Blocs de cristal gravés d'après des photos, réalisés par Affinités Photos",
+    "objets-2": "Pendentifs gravés et miroir de poche personnalisé",
+    "objets-3": "Coque de téléphone personnalisée avec une photo de paon"
   }
 }

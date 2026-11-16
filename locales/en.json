@@ -103,8 +103,8 @@
         "text": "Digital or film, small, enlarged or on canvas."
       },
       "services": {
-        "title": "Film and photo gifts",
-        "text": "Developing on site, phone cases, mugs and personalised gifts."
+        "title": "Photo gifts and film",
+        "text": "Crystal engraving, phone cases, jewellery, photo books, and developing on site."
       }
     }
   },
@@ -182,11 +182,12 @@
   "gallery": {
     "eyebrow": "Gallery",
     "title": "A few pictures",
-    "lead": "Illustrative photos for now: the studio's own session photos will be published here with the families' consent.",
+    "lead": "The “Photo gifts” and “The shop” tabs show the studio and its own work. Session pictures are illustrative photos: the studio's own will be published with the families' consent.",
     "tabs": {
       "bebe": "Baby and newborn",
       "famille": "Family",
-      "portrait": "Portrait",
+      "portrait": "Portrait and events",
+      "objets": "Photo gifts",
       "studio": "The shop"
     },
     "tablist": "Session type"
@@ -492,7 +493,7 @@
     "data": "Personal data",
     "dataText": "The information entered in the booking form (name, phone, email, message) is only used to handle your request. It is never passed on or used for advertising. You can ask for it to be deleted by calling the studio. The site uses no advertising cookies.",
     "photos": "Photos",
-    "photosText": "The shopfront photo comes from the shop's public listing. The other images are royalty-free illustrative photos (Unsplash), pending the studio's own photos. Session photos will only be published with the consent of the people photographed or their legal guardians."
+    "photosText": "The shopfront photo comes from the shop's public listing; the photos of the chalet, the photo books and the engraved items come from the studio's Facebook page. The other images are royalty-free illustrative photos (Unsplash), pending the studio's own session photos, which will only be published with the consent of the people photographed or their legal guardians."
   },
   "slots": {
     "hero": "The Affinités Photos shopfront at 5 rue de la Hotoie, Amiens: red sign and a window full of portraits",
@@ -501,10 +502,10 @@
     "tile-famille": "A family's hands resting on top of each other",
     "tile-portrait": "Studio light and posing chair in front of a white backdrop",
     "tile-tirages": "Photo prints spread out on a white sheet",
-    "tile-services": "A strip of photographic film",
+    "tile-services": "Crystal blocks engraved from photos, made by Affinités Photos",
     "block-identite": "The Affinités Photos shop window, rue de la Hotoie",
     "block-seances": "A baby's feet in a white sheet",
-    "block-tirages": "Colour photo prints laid on a table",
+    "block-tirages": "Wedding photo books made by Affinités Photos",
     "bebe-1": "A newborn's feet wrapped in a white blanket",
     "bebe-2": "A baby's hand resting on a sheet",
     "bebe-3": "A baby's feet in a white sheet",
@@ -513,11 +514,14 @@
     "famille-3": "A baby's hand in an adult's palm, in black and white",
     "portrait-1": "Studio light and posing chair in front of a white backdrop",
     "portrait-2": "Camera on its tripod",
-    "portrait-3": "Camera and lenses seen from above",
+    "portrait-3": "A flower-decked table photographed at an event covered by Affinités Photos",
     "studio-1": "The Affinités Photos shopfront at 5 rue de la Hotoie, Amiens",
-    "studio-2": "Sign detail: the little white photographer above the shop window",
-    "studio-3": "Personalised phone case printed with a peacock photo",
+    "studio-2": "The Affinités Photos chalet at the Amiens Christmas market",
+    "studio-3": "Sign detail: the little white photographer above the shop window",
     "page-identite": "Camera on its tripod",
-    "page-bebe": "An adult's hand holding a newborn's hand"
+    "page-bebe": "An adult's hand holding a newborn's hand",
+    "objets-1": "Crystal blocks engraved from photos, made by Affinités Photos",
+    "objets-2": "Engraved pendants and a personalised pocket mirror",
+    "objets-3": "Personalised phone case printed with a peacock photo"
   }
 }

@@ -24,7 +24,7 @@ Pour changer : `hero.title` dans `locales/fr.json` et `locales/en.json` (les mot
 - **Annuaires** : photos d'identité pour carte d'identité, passeport, visas, permis de conduire e-photo (ANTS), argentique développé sur place.
 - **Registres publics** : AFFINITES PHOTOS, SCIC, SIRET 514 088 376 00017.
 - **Vitrine** : autocollants CB / Visa / Mastercard sur la porte ; affiche « photos sur toile à partir de 25 € » (photo ancienne, prix non repris).
-- **Photos d'illustration** : toutes les images hors façade et coque sont libres de droits (Unsplash, voir CREDITS.md), à remplacer par les photos du studio.
+- **Photos d'illustration** : les images de séances (bébé, famille, portrait, identité, tirages) sont libres de droits (Unsplash, voir PHOTOS-SOURCES.md), à remplacer par les photos du studio.
 
 ## À confirmer avec le studio
 
@@ -222,8 +222,8 @@ Chaque ligne : clé, français, anglais. Les textes marqués **à valider** dema
 | `tiles.items.portrait.text` | Pour vous, pour un CV, pour offrir. | For yourself, for a CV, or as a gift. | |
 | `tiles.items.tirages.title` | Tirages et agrandissements | Prints and enlargements | |
 | `tiles.items.tirages.text` | Numérique ou argentique, en petit format, en grand ou sur toile. | Digital or film, small, enlarged or on canvas. | |
-| `tiles.items.services.title` | Argentique et objets photo | Film and photo gifts | **à valider (service colis)** |
-| `tiles.items.services.text` | Développement sur place, coques, mugs et cadeaux personnalisés. | Developing on site, phone cases, mugs and personalised gifts. | **à valider (service colis)** |
+| `tiles.items.services.title` | Objets photo et argentique | Photo gifts and film | **à valider (service colis)** |
+| `tiles.items.services.text` | Gravure sur cristal, coques, bijoux, livres albums, et développement sur place. | Crystal engraving, phone cases, jewellery, photo books, and developing on site. | **à valider (service colis)** |
 
 ### strip
 
@@ -289,10 +289,11 @@ Chaque ligne : clé, français, anglais. Les textes marqués **à valider** dema
 |---|---|---|---|
 | `gallery.eyebrow` | Galerie | Gallery | |
 | `gallery.title` | Quelques images | A few pictures | |
-| `gallery.lead` | Photos d'illustration pour l'instant : les photos de séances du studio seront publiées ici avec l'accord des familles. | Illustrative photos for now: the studio's own session photos will be published here with the families' consent. | |
+| `gallery.lead` | Les onglets « Objets photo » et « Le magasin » montrent le studio et ses réalisations. Les images de séances sont des photos d'illustration : celles du studio seront publiées avec l'accord des familles. | The “Photo gifts” and “The shop” tabs show the studio and its own work. Session pictures are illustrative photos: the studio's own will be published with the families' consent. | |
 | `gallery.tabs.bebe` | Bébé et naissance | Baby and newborn | |
 | `gallery.tabs.famille` | Famille | Family | |
-| `gallery.tabs.portrait` | Portrait | Portrait | |
+| `gallery.tabs.portrait` | Portrait et reportage | Portrait and events | |
+| `gallery.tabs.objets` | Objets photo | Photo gifts | |
 | `gallery.tabs.studio` | Le magasin | The shop | |
 | `gallery.tablist` | Type de séance | Session type | |
 
@@ -524,7 +525,7 @@ Chaque ligne : clé, français, anglais. Les textes marqués **à valider** dema
 | `legal.data` | Données personnelles | Personal data | |
 | `legal.dataText` | Les informations saisies dans le formulaire de réservation (nom, téléphone, e-mail, message) servent uniquement à traiter votre demande. Elles ne sont ni cédées ni utilisées à des fins publicitaires. Vous pouvez demander leur suppression en appelant le studio. Le site n'utilise pas de cookies publicitaires. | The information entered in the booking form (name, phone, email, message) is only used to handle your request. It is never passed on or used for advertising. You can ask for it to be deleted by calling the studio. The site uses no advertising cookies. | |
 | `legal.photos` | Photos | Photos | |
-| `legal.photosText` | La photo de la façade est celle de la fiche publique du commerce. Les autres images sont des photos d'illustration libres de droits (Unsplash), en attendant les photos du studio. Les photos de séances ne seront publiées qu'avec l'accord des personnes photographiées ou de leurs représentants légaux. | The shopfront photo comes from the shop's public listing. The other images are royalty-free illustrative photos (Unsplash), pending the studio's own photos. Session photos will only be published with the consent of the people photographed or their legal guardians. | |
+| `legal.photosText` | La photo de la façade vient de la fiche publique du commerce ; les photos du chalet, des livres albums et des objets gravés viennent de la page Facebook du studio. Les autres images sont des photos d'illustration libres de droits (Unsplash), en attendant les photos de séances du studio, qui ne seront publiées qu'avec l'accord des personnes photographiées ou de leurs représentants légaux. | The shopfront photo comes from the shop's public listing; the photos of the chalet, the photo books and the engraved items come from the studio's Facebook page. The other images are royalty-free illustrative photos (Unsplash), pending the studio's own session photos, which will only be published with the consent of the people photographed or their legal guardians. | |
 
 ## Emplacements photo (`data/photos.json`)
 
@@ -538,10 +539,10 @@ Le texte sert de légende tant que la photo manque, puis de texte alternatif une
 | tile-famille | Mains d'une famille posées les unes sur les autres | A family's hands resting on top of each other |
 | tile-portrait | Éclairage de studio et fauteuil de pose devant un fond blanc | Studio light and posing chair in front of a white backdrop |
 | tile-tirages | Tirages photo étalés sur un drap blanc | Photo prints spread out on a white sheet |
-| tile-services | Bande de pellicule photo argentique | A strip of photographic film |
+| tile-services | Blocs de cristal gravés d'après des photos, réalisés par Affinités Photos | Crystal blocks engraved from photos, made by Affinités Photos |
 | block-identite | La vitrine d'Affinités Photos, rue de la Hotoie | The Affinités Photos shop window, rue de la Hotoie |
 | block-seances | Pieds d'un bébé dans un drap blanc | A baby's feet in a white sheet |
-| block-tirages | Tirages photo en couleur posés sur une table | Colour photo prints laid on a table |
+| block-tirages | Livres albums de mariage réalisés par Affinités Photos | Wedding photo books made by Affinités Photos |
 | bebe-1 | Pieds d'un nouveau-né emmitouflé dans une couverture blanche | A newborn's feet wrapped in a white blanket |
 | bebe-2 | Main d'un bébé posée sur un drap | A baby's hand resting on a sheet |
 | bebe-3 | Pieds d'un bébé dans un drap blanc | A baby's feet in a white sheet |
@@ -550,9 +551,12 @@ Le texte sert de légende tant que la photo manque, puis de texte alternatif une
 | famille-3 | Main d'un bébé dans la paume d'un adulte, en noir et blanc | A baby's hand in an adult's palm, in black and white |
 | portrait-1 | Éclairage de studio et fauteuil de pose devant un fond blanc | Studio light and posing chair in front of a white backdrop |
 | portrait-2 | Appareil photo sur son trépied | Camera on its tripod |
-| portrait-3 | Appareil photo et objectifs vus de dessus | Camera and lenses seen from above |
+| portrait-3 | Table fleurie photographiée lors d'un reportage d'Affinités Photos | A flower-decked table photographed at an event covered by Affinités Photos |
 | studio-1 | La façade d'Affinités Photos, 5 rue de la Hotoie à Amiens | The Affinités Photos shopfront at 5 rue de la Hotoie, Amiens |
-| studio-2 | Détail de l'enseigne : le petit photographe blanc au-dessus de la vitrine | Sign detail: the little white photographer above the shop window |
-| studio-3 | Coque de téléphone personnalisée avec une photo de paon | Personalised phone case printed with a peacock photo |
+| studio-2 | Le chalet d'Affinités Photos au marché de Noël d'Amiens | The Affinités Photos chalet at the Amiens Christmas market |
+| studio-3 | Détail de l'enseigne : le petit photographe blanc au-dessus de la vitrine | Sign detail: the little white photographer above the shop window |
 | page-identite | Appareil photo sur son trépied | Camera on its tripod |
 | page-bebe | Main d'un adulte tenant la main d'un nouveau-né | An adult's hand holding a newborn's hand |
+| objets-1 | Blocs de cristal gravés d'après des photos, réalisés par Affinités Photos | Crystal blocks engraved from photos, made by Affinités Photos |
+| objets-2 | Pendentifs gravés et miroir de poche personnalisé | Engraved pendants and a personalised pocket mirror |
+| objets-3 | Coque de téléphone personnalisée avec une photo de paon | Personalised phone case printed with a peacock photo |

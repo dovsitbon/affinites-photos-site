@@ -222,6 +222,7 @@ function Gallery({ d }: { d: Dict }) {
     { id: "bebe", slots: ["bebe-1", "bebe-2", "bebe-3"], tone: "rose" },
     { id: "famille", slots: ["famille-1", "famille-2", "famille-3"], tone: "pearl" },
     { id: "portrait", slots: ["portrait-1", "portrait-2", "portrait-3"], tone: "soft" },
+    { id: "objets", slots: ["objets-1", "objets-2", "objets-3"], tone: "soft" },
     { id: "studio", slots: ["studio-1", "studio-2", "studio-3"], tone: "pearl" },
   ];
   return (

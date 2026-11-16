@@ -44,7 +44,7 @@ w("- **Carte de visite** (photo Facebook) : développement argentique, tirage nu
 w("- **Annuaires** : photos d'identité pour carte d'identité, passeport, visas, permis de conduire e-photo (ANTS), argentique développé sur place.");
 w("- **Registres publics** : AFFINITES PHOTOS, SCIC, SIRET 514 088 376 00017.");
 w("- **Vitrine** : autocollants CB / Visa / Mastercard sur la porte ; affiche « photos sur toile à partir de 25 € » (photo ancienne, prix non repris).");
-w("- **Photos d'illustration** : toutes les images hors façade et coque sont libres de droits (Unsplash, voir CREDITS.md), à remplacer par les photos du studio.");
+w("- **Photos d'illustration** : les images de séances (bébé, famille, portrait, identité, tirages) sont libres de droits (Unsplash, voir PHOTOS-SOURCES.md), à remplacer par les photos du studio.");
 w();
 w("## À confirmer avec le studio");
 w();
